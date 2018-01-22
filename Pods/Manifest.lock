@@ -1,0 +1,18 @@
+PODS:
+  - ReachabilitySwift (3)
+  - Shimmer (1.0.2)
+  - UIView+Shimmer (1.0.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - Shimmer
+  - UIView+Shimmer
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  UIView+Shimmer: ed634f95e8f4bda666b28b47bd85a4336a4117d8
+
+PODFILE CHECKSUM: 36ce984470f03609c786a9929511b5b609b6187a
+
+COCOAPODS: 1.3.1
