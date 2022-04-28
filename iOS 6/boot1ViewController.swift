@@ -10,46 +10,24 @@ import UIKit
 
 class boot1ViewController: UIViewController {
     
-    var quickBoot = false
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
-        
-        
-        
         
     }
+    
     @IBAction func quickBoot(_ sender: Any) {
-        quickBoot = true
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    func timeToMoveOn() {
-        if quickBoot == false {
-        self.performSegue(withIdentifier: "boot1", sender: self)
+        if UserDefaults.standard.bool(forKey: "directBoot") == true {
+            self.performSegue(withIdentifier: "startToLockscreen", sender: self)
         } else {
-            
+            self.performSegue(withIdentifier: "startToBooter", sender: self)
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if (segue.identifier == "boot1") {
-            
-            
-            
-            print("Segue Performed")
-            print("boot1")
-            
-        }
-        
+    @IBAction func closeAppBtn(_ sender: Any) {
+        Darwin.abort()
     }
+    
 
 }

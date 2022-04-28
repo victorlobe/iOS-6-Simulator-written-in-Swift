@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB80A969A4E9B338C83B59F /* Pods_iOS_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054135A41A662C54425D2753 /* Pods_iOS_6.framework */; };
+		57184B0A24527AD400D1E8DD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57184B0924527AD400D1E8DD /* Settings.bundle */; };
+		57184B0C24527AD800D1E8DD /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57184B0B24527AD700D1E8DD /* SettingsBundleHelper.swift */; };
 		572C1BD51F956A0F0094CF77 /* statusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C1BD41F956A0F0094CF77 /* statusBarViewController.swift */; };
 		57404CD71F92E5FF00A19719 /* compassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57404CD61F92E5FF00A19719 /* compassViewController.swift */; };
 		57404CD91F92E6D100A19719 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57404CD81F92E6D000A19719 /* LocationDelegate.swift */; };
+		5741DF6F246A05E800C2D16D /* currentCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741DF6E246A05E800C2D16D /* currentCallViewController.swift */; };
 		574268221F37A358009A39DD /* consoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574268211F37A357009A39DD /* consoleViewController.swift */; };
+		574AB6012468AFC500D9EEC4 /* wallpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AB6002468AFC500D9EEC4 /* wallpaperView.swift */; };
+		574AB6052468B1B100D9EEC4 /* metaWallpaperChangerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AB6042468B1B100D9EEC4 /* metaWallpaperChangerCollectionViewCell.swift */; };
+		574AB6072468B1CB00D9EEC4 /* metaWallpaperChangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AB6062468B1CB00D9EEC4 /* metaWallpaperChangerViewController.swift */; };
 		5765E1C51F2CD9D400354EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A0A1F2CD7AA0020531A /* ViewController.swift */; };
-		5765E1C61F2CDA3A00354EDA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57B38A171F2CD7AA0020531A /* Info.plist */; };
 		5765E1C71F2CDA8600354EDA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575B5BC11F2CD8EC00F67605 /* AudioToolbox.framework */; };
 		5765E1CE1F2CDB0B00354EDA /* iphone_unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5765E1CD1F2CDAF800354EDA /* iphone_unlock.mp3 */; };
 		5765E1CF1F2CDB0D00354EDA /* iphone_lock_screen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5765E1CC1F2CDAF600354EDA /* iphone_lock_screen.mp3 */; };
 		5765E1D11F2CE73D00354EDA /* camPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765E1D01F2CE73D00354EDA /* camPreviewViewController.swift */; };
+		57754DF624315540005C57E7 /* dtmf-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DE92431553B005C57E7 /* dtmf-2.mp3 */; };
+		57754DF724315540005C57E7 /* dtmf-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DEA2431553B005C57E7 /* dtmf-5.mp3 */; };
+		57754DF824315540005C57E7 /* dtmf-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DEB2431553C005C57E7 /* dtmf-1.mp3 */; };
+		57754DF924315540005C57E7 /* dtmf-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DEC2431553C005C57E7 /* dtmf-6.mp3 */; };
+		57754DFA24315540005C57E7 /* dtmf-hashtag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DED2431553D005C57E7 /* dtmf-hashtag.mp3 */; };
+		57754DFB24315540005C57E7 /* dtmf-star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DEE2431553D005C57E7 /* dtmf-star.mp3 */; };
+		57754DFC24315540005C57E7 /* dtmf-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DEF2431553D005C57E7 /* dtmf-8.mp3 */; };
+		57754DFD24315540005C57E7 /* charging.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF02431553D005C57E7 /* charging.mp3 */; };
+		57754DFE24315540005C57E7 /* dtmf-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF12431553E005C57E7 /* dtmf-4.mp3 */; };
+		57754DFF24315540005C57E7 /* dtmf-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF22431553E005C57E7 /* dtmf-0.mp3 */; };
+		57754E0024315540005C57E7 /* dtmf-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF32431553E005C57E7 /* dtmf-3.mp3 */; };
+		57754E0124315540005C57E7 /* dtmf-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF42431553F005C57E7 /* dtmf-7.mp3 */; };
+		57754E0224315540005C57E7 /* dtmf-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754DF52431553F005C57E7 /* dtmf-9.mp3 */; };
+		57754E0424315545005C57E7 /* photoShutter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57754E0324315545005C57E7 /* photoShutter.mp3 */; };
 		5783F2FB1F2D3B6F009FB601 /* loxoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783F2FA1F2D3B6F009FB601 /* loxoneViewController.swift */; };
 		5783F2FD1F2D3E7C009FB601 /* musicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783F2FC1F2D3E7C009FB601 /* musicViewController.swift */; };
+		578F6ADC24735B05005E8A09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578F6ADB24735B05005E8A09 /* Helper.swift */; };
+		5794802E243922A5007385A0 /* UIPopupAlertBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948022243922A4007385A0 /* UIPopupAlertBackground.png */; };
+		5794802F243922A5007385A0 /* UIPopupAlertSheetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948023243922A4007385A0 /* UIPopupAlertSheetButton.png */; };
+		57948030243922A5007385A0 /* UIPopupAlertSheetButtonPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948024243922A4007385A0 /* UIPopupAlertSheetButtonPress.png */; };
+		57948031243922A5007385A0 /* UIPopupAlertSheetDefaultButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948025243922A4007385A0 /* UIPopupAlertSheetDefaultButton@2x.png */; };
+		57948032243922A5007385A0 /* iOS6AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57948026243922A4007385A0 /* iOS6AlertView.m */; };
+		57948033243922A5007385A0 /* UIPopupAlertSheetDefaultButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948027243922A4007385A0 /* UIPopupAlertSheetDefaultButton.png */; };
+		57948034243922A5007385A0 /* UIPopupAlertSheetButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948028243922A4007385A0 /* UIPopupAlertSheetButton@2x.png */; };
+		57948035243922A5007385A0 /* UIPopupAlertBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948029243922A4007385A0 /* UIPopupAlertBackground@2x.png */; };
+		57948036243922A5007385A0 /* UIAlertViewDimming@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794802B243922A4007385A0 /* UIAlertViewDimming@2x.png */; };
+		57948037243922A5007385A0 /* UIPopupAlertSheetButtonPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794802C243922A4007385A0 /* UIPopupAlertSheetButtonPress@2x.png */; };
+		57948038243922A5007385A0 /* UIAlertViewDimming.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794802D243922A4007385A0 /* UIAlertViewDimming.png */; };
+		5794808E243922AD007385A0 /* UISwitchThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948084243922AD007385A0 /* UISwitchThumb@2x.png */; };
+		5794808F243922AD007385A0 /* UISwitchShapeShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948086243922AD007385A0 /* UISwitchShapeShadow.png */; };
+		57948090243922AD007385A0 /* UISwitchThumbPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948087243922AD007385A0 /* UISwitchThumbPressed@2x.png */; };
+		57948091243922AD007385A0 /* iOS6Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57948088243922AD007385A0 /* iOS6Switch.m */; };
+		57948092243922AD007385A0 /* UISwitchShapeShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57948089243922AD007385A0 /* UISwitchShapeShadow@2x.png */; };
+		57948093243922AD007385A0 /* UISwitchShapeMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794808A243922AD007385A0 /* UISwitchShapeMask.png */; };
+		57948094243922AD007385A0 /* UISwitchShapeMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794808B243922AD007385A0 /* UISwitchShapeMask@2x.png */; };
+		57948095243922AD007385A0 /* UISwitchThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794808C243922AD007385A0 /* UISwitchThumb.png */; };
+		57948096243922AD007385A0 /* UISwitchThumbPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5794808D243922AD007385A0 /* UISwitchThumbPressed.png */; };
+		5794809824392E9A007385A0 /* metaSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794809724392E9A007385A0 /* metaSettingsViewController.swift */; };
+		5794809A24393611007385A0 /* mvgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5794809924393610007385A0 /* mvgViewController.swift */; };
 		57983E0D1F4884A300C1BB8F /* setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57983E0C1F4884A300C1BB8F /* setup.storyboard */; };
 		57983E0F1F48868000C1BB8F /* setup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57983E0E1F48868000C1BB8F /* setup1ViewController.swift */; };
+		579B0BB924FDA5F800BC5C14 /* installOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579B0BB824FDA5F800BC5C14 /* installOSViewController.swift */; };
 		57B38A091F2CD7AA0020531A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A081F2CD7AA0020531A /* AppDelegate.swift */; };
 		57B38A111F2CD7AA0020531A /* iOS_6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A0F1F2CD7AA0020531A /* iOS_6.xcdatamodeld */; };
-		57B38A131F2CD7AA0020531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B38A121F2CD7AA0020531A /* Assets.xcassets */; };
-		57B38A211F2CD7AA0020531A /* iOS_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A201F2CD7AA0020531A /* iOS_6Tests.swift */; };
-		57B38A2C1F2CD7AB0020531A /* iOS_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A2B1F2CD7AB0020531A /* iOS_6UITests.swift */; };
 		57B38A5A1F2CD80E0020531A /* appstoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A391F2CD80E0020531A /* appstoreViewController.swift */; };
 		57B38A5B1F2CD80E0020531A /* boot1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A3A1F2CD80E0020531A /* boot1ViewController.swift */; };
 		57B38A5C1F2CD80E0020531A /* boot2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A3B1F2CD80E0020531A /* boot2ViewController.swift */; };
@@ -57,34 +98,28 @@
 		57B38A761F2CD80E0020531A /* unlock3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A561F2CD80E0020531A /* unlock3ViewController.swift */; };
 		57B38A771F2CD80E0020531A /* unlock4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A571F2CD80E0020531A /* unlock4ViewController.swift */; };
 		57B38A781F2CD80E0020531A /* unlock5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B38A581F2CD80E0020531A /* unlock5ViewController.swift */; };
+		57BB51A3246B5B2D0096CAA2 /* phoneAdressbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB51A2246B5B2D0096CAA2 /* phoneAdressbookViewController.swift */; };
+		57BB51A5246B5B470096CAA2 /* adressBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB51A4246B5B470096CAA2 /* adressBookTableViewCell.swift */; };
 		57C642881F2E264600206A7D /* phoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C642871F2E264600206A7D /* phoneViewController.swift */; };
 		57D8B4621F2E757200E97D7C /* shimmerButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B4611F2E757200E97D7C /* shimmerButtonViewController.swift */; };
 		57DA0CB81F47AD9F001DECC4 /* bootErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DA0CB71F47AD9F001DECC4 /* bootErrorViewController.swift */; };
 		57DAD1E21F77EF5600144B15 /* lockscreenDeactivatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAD1E11F77EF5600144B15 /* lockscreenDeactivatedViewController.swift */; };
+		57E8DE2C24539EFD0056F2F3 /* mailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8DE2B24539EFD0056F2F3 /* mailViewController.swift */; };
+		57E8DE2E2453A29F0056F2F3 /* mailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8DE2D2453A29F0056F2F3 /* mailListTableViewCell.swift */; };
+		57E8DE302453BAE10056F2F3 /* new-mail.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57E8DE2F2453BAE10056F2F3 /* new-mail.caf */; };
 		57F4CA6D1F477E75008C89AD /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4CA6C1F477E75008C89AD /* testViewController.swift */; };
 		57F4CA6F1F478D1A008C89AD /* singleCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4CA6E1F478D1A008C89AD /* singleCodeViewController.swift */; };
+		57F53CAA2550A0CC00FE93BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F53CA92550A0CB00FE93BF /* Assets.xcassets */; };
 		57FAC2761F479F6B00B1E254 /* reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAC2751F479F6A00B1E254 /* reachability.swift */; };
-		5D097C009A7EF4B326534859 /* Pods_iOS_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76657F35E5C29E9C9675B1A /* Pods_iOS_6.framework */; };
-		7E65B2C6DEA33E778FF819AA /* Pods_iOS_6Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AE1D78562508679C32396A /* Pods_iOS_6Tests.framework */; };
-		B6B881A786FA30ECD17E3E30 /* Pods_iOS_6_iOS_6Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C91E985743B74D8748A71 /* Pods_iOS_6_iOS_6Tests.framework */; };
+		640B2E49267FEF9000EA53C7 /* Hackensack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 640B2E46267FEF9000EA53C7 /* Hackensack.ttf */; };
+		640B2E4A267FEF9000EA53C7 /* Phosphate-Inline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 640B2E47267FEF9000EA53C7 /* Phosphate-Inline.ttf */; };
+		640B2E4B267FEF9000EA53C7 /* Superclarendon Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 640B2E48267FEF9000EA53C7 /* Superclarendon Bold.ttf */; };
+		64EF8B69267FEB5C00C8286D /* splashSetup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EF8B68267FEB5C00C8286D /* splashSetup.storyboard */; };
+		64F626C3267FF3B700EFA757 /* splashSetupFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F626C2267FF3B700EFA757 /* splashSetupFinishViewController.swift */; };
+		64F626C5267FF48400EFA757 /* Bridge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F626C4267FF48400EFA757 /* Bridge.storyboard */; };
+		64F626C7267FF49000EFA757 /* bridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F626C6267FF49000EFA757 /* bridgeViewController.swift */; };
+		64FDDFE1281A15F900409106 /* icloudLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FDDFE0281A15F900409106 /* icloudLoginViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		57B38A1D1F2CD7AA0020531A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57B389FD1F2CD7AA0020531A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57B38A041F2CD7AA0020531A;
-			remoteInfo = "iOS 6";
-		};
-		57B38A281F2CD7AB0020531A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57B389FD1F2CD7AA0020531A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57B38A041F2CD7AA0020531A;
-			remoteInfo = "iOS 6";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		571415581F93FE9C00C79D1F /* Embed App Extensions */ = {
@@ -110,34 +145,74 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		22FC41106E644AF285D6E7A6 /* Pods_iOS_6UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		054135A41A662C54425D2753 /* Pods_iOS_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.release.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.release.xcconfig"; sourceTree = "<group>"; };
 		5714154F1F93FE9C00C79D1F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		571415511F93FE9C00C79D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571415591F9400A800C79D1F /* keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = keyboard.storyboard; sourceTree = "<group>"; };
+		57184B0924527AD400D1E8DD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		57184B0B24527AD700D1E8DD /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 		572C1BD41F956A0F0094CF77 /* statusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statusBarViewController.swift; sourceTree = "<group>"; };
 		57404CD61F92E5FF00A19719 /* compassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassViewController.swift; sourceTree = "<group>"; };
 		57404CD81F92E6D000A19719 /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		5741DF6E246A05E800C2D16D /* currentCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentCallViewController.swift; sourceTree = "<group>"; };
 		574268211F37A357009A39DD /* consoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consoleViewController.swift; sourceTree = "<group>"; };
+		574AB6002468AFC500D9EEC4 /* wallpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wallpaperView.swift; sourceTree = "<group>"; };
+		574AB6042468B1B100D9EEC4 /* metaWallpaperChangerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaWallpaperChangerCollectionViewCell.swift; sourceTree = "<group>"; };
+		574AB6062468B1CB00D9EEC4 /* metaWallpaperChangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaWallpaperChangerViewController.swift; sourceTree = "<group>"; };
 		575B5BC11F2CD8EC00F67605 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5765E1CC1F2CDAF600354EDA /* iphone_lock_screen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_lock_screen.mp3; sourceTree = "<group>"; };
 		5765E1CD1F2CDAF800354EDA /* iphone_unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_unlock.mp3; sourceTree = "<group>"; };
 		5765E1D01F2CE73D00354EDA /* camPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camPreviewViewController.swift; sourceTree = "<group>"; };
+		57754DE92431553B005C57E7 /* dtmf-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-2.mp3"; sourceTree = "<group>"; };
+		57754DEA2431553B005C57E7 /* dtmf-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-5.mp3"; sourceTree = "<group>"; };
+		57754DEB2431553C005C57E7 /* dtmf-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-1.mp3"; sourceTree = "<group>"; };
+		57754DEC2431553C005C57E7 /* dtmf-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-6.mp3"; sourceTree = "<group>"; };
+		57754DED2431553D005C57E7 /* dtmf-hashtag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-hashtag.mp3"; sourceTree = "<group>"; };
+		57754DEE2431553D005C57E7 /* dtmf-star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-star.mp3"; sourceTree = "<group>"; };
+		57754DEF2431553D005C57E7 /* dtmf-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-8.mp3"; sourceTree = "<group>"; };
+		57754DF02431553D005C57E7 /* charging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = charging.mp3; sourceTree = "<group>"; };
+		57754DF12431553E005C57E7 /* dtmf-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-4.mp3"; sourceTree = "<group>"; };
+		57754DF22431553E005C57E7 /* dtmf-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-0.mp3"; sourceTree = "<group>"; };
+		57754DF32431553E005C57E7 /* dtmf-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-3.mp3"; sourceTree = "<group>"; };
+		57754DF42431553F005C57E7 /* dtmf-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-7.mp3"; sourceTree = "<group>"; };
+		57754DF52431553F005C57E7 /* dtmf-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dtmf-9.mp3"; sourceTree = "<group>"; };
+		57754E0324315545005C57E7 /* photoShutter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = photoShutter.mp3; sourceTree = "<group>"; };
 		5783F2FA1F2D3B6F009FB601 /* loxoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loxoneViewController.swift; sourceTree = "<group>"; };
 		5783F2FC1F2D3E7C009FB601 /* musicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicViewController.swift; sourceTree = "<group>"; };
+		578F6ADB24735B05005E8A09 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		57948022243922A4007385A0 /* UIPopupAlertBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPopupAlertBackground.png; sourceTree = "<group>"; };
+		57948023243922A4007385A0 /* UIPopupAlertSheetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPopupAlertSheetButton.png; sourceTree = "<group>"; };
+		57948024243922A4007385A0 /* UIPopupAlertSheetButtonPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPopupAlertSheetButtonPress.png; sourceTree = "<group>"; };
+		57948025243922A4007385A0 /* UIPopupAlertSheetDefaultButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPopupAlertSheetDefaultButton@2x.png"; sourceTree = "<group>"; };
+		57948026243922A4007385A0 /* iOS6AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS6AlertView.m; sourceTree = "<group>"; };
+		57948027243922A4007385A0 /* UIPopupAlertSheetDefaultButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPopupAlertSheetDefaultButton.png; sourceTree = "<group>"; };
+		57948028243922A4007385A0 /* UIPopupAlertSheetButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPopupAlertSheetButton@2x.png"; sourceTree = "<group>"; };
+		57948029243922A4007385A0 /* UIPopupAlertBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPopupAlertBackground@2x.png"; sourceTree = "<group>"; };
+		5794802A243922A4007385A0 /* iOS6AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS6AlertView.h; sourceTree = "<group>"; };
+		5794802B243922A4007385A0 /* UIAlertViewDimming@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIAlertViewDimming@2x.png"; sourceTree = "<group>"; };
+		5794802C243922A4007385A0 /* UIPopupAlertSheetButtonPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPopupAlertSheetButtonPress@2x.png"; sourceTree = "<group>"; };
+		5794802D243922A4007385A0 /* UIAlertViewDimming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertViewDimming.png; sourceTree = "<group>"; };
+		57948084243922AD007385A0 /* UISwitchThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UISwitchThumb@2x.png"; sourceTree = "<group>"; };
+		57948085243922AD007385A0 /* iOS6Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS6Switch.h; sourceTree = "<group>"; };
+		57948086243922AD007385A0 /* UISwitchShapeShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UISwitchShapeShadow.png; sourceTree = "<group>"; };
+		57948087243922AD007385A0 /* UISwitchThumbPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UISwitchThumbPressed@2x.png"; sourceTree = "<group>"; };
+		57948088243922AD007385A0 /* iOS6Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS6Switch.m; sourceTree = "<group>"; };
+		57948089243922AD007385A0 /* UISwitchShapeShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UISwitchShapeShadow@2x.png"; sourceTree = "<group>"; };
+		5794808A243922AD007385A0 /* UISwitchShapeMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UISwitchShapeMask.png; sourceTree = "<group>"; };
+		5794808B243922AD007385A0 /* UISwitchShapeMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UISwitchShapeMask@2x.png"; sourceTree = "<group>"; };
+		5794808C243922AD007385A0 /* UISwitchThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UISwitchThumb.png; sourceTree = "<group>"; };
+		5794808D243922AD007385A0 /* UISwitchThumbPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UISwitchThumbPressed.png; sourceTree = "<group>"; };
+		5794809724392E9A007385A0 /* metaSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaSettingsViewController.swift; sourceTree = "<group>"; };
+		5794809924393610007385A0 /* mvgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvgViewController.swift; sourceTree = "<group>"; };
 		57983E0C1F4884A300C1BB8F /* setup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = setup.storyboard; sourceTree = "<group>"; };
 		57983E0E1F48868000C1BB8F /* setup1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup1ViewController.swift; sourceTree = "<group>"; };
+		579B0BB824FDA5F800BC5C14 /* installOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = installOSViewController.swift; sourceTree = "<group>"; };
 		57B38A051F2CD7AA0020531A /* iOS 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B38A081F2CD7AA0020531A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57B38A0A1F2CD7AA0020531A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57B38A101F2CD7AA0020531A /* iOS_6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_6.xcdatamodel; sourceTree = "<group>"; };
-		57B38A121F2CD7AA0020531A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B38A171F2CD7AA0020531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57B38A1C1F2CD7AA0020531A /* iOS 6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57B38A201F2CD7AA0020531A /* iOS_6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_6Tests.swift; sourceTree = "<group>"; };
-		57B38A221F2CD7AB0020531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57B38A271F2CD7AB0020531A /* iOS 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57B38A2B1F2CD7AB0020531A /* iOS_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_6UITests.swift; sourceTree = "<group>"; };
-		57B38A2D1F2CD7AB0020531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57B38A391F2CD80E0020531A /* appstoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appstoreViewController.swift; sourceTree = "<group>"; };
 		57B38A3A1F2CD80E0020531A /* boot1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boot1ViewController.swift; sourceTree = "<group>"; };
 		57B38A3B1F2CD80E0020531A /* boot2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boot2ViewController.swift; sourceTree = "<group>"; };
@@ -170,34 +245,28 @@
 		57B38A561F2CD80E0020531A /* unlock3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unlock3ViewController.swift; sourceTree = "<group>"; };
 		57B38A571F2CD80E0020531A /* unlock4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unlock4ViewController.swift; sourceTree = "<group>"; };
 		57B38A581F2CD80E0020531A /* unlock5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unlock5ViewController.swift; sourceTree = "<group>"; };
+		57BB51A2246B5B2D0096CAA2 /* phoneAdressbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneAdressbookViewController.swift; sourceTree = "<group>"; };
+		57BB51A4246B5B470096CAA2 /* adressBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adressBookTableViewCell.swift; sourceTree = "<group>"; };
 		57C642871F2E264600206A7D /* phoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneViewController.swift; sourceTree = "<group>"; };
 		57D8B4611F2E757200E97D7C /* shimmerButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shimmerButtonViewController.swift; sourceTree = "<group>"; };
 		57DA0CB71F47AD9F001DECC4 /* bootErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootErrorViewController.swift; sourceTree = "<group>"; };
 		57DAD1E11F77EF5600144B15 /* lockscreenDeactivatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lockscreenDeactivatedViewController.swift; sourceTree = "<group>"; };
-		57F4CA5E1F47600E008C89AD /* dtmf-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-8.mp3"; path = "../../xcode/iOS 6/dtmf-8.mp3"; sourceTree = "<group>"; };
-		57F4CA5F1F47600E008C89AD /* dtmf-hashtag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-hashtag.mp3"; path = "../../xcode/iOS 6/dtmf-hashtag.mp3"; sourceTree = "<group>"; };
-		57F4CA601F47600F008C89AD /* photoShutter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = photoShutter.mp3; path = "../../xcode/iOS 6/photoShutter.mp3"; sourceTree = "<group>"; };
-		57F4CA611F47600F008C89AD /* dtmf-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-6.mp3"; path = "../../xcode/iOS 6/dtmf-6.mp3"; sourceTree = "<group>"; };
-		57F4CA621F47600F008C89AD /* dtmf-star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-star.mp3"; path = "../../xcode/iOS 6/dtmf-star.mp3"; sourceTree = "<group>"; };
-		57F4CA631F476013008C89AD /* dtmf-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-3.mp3"; path = "../../xcode/iOS 6/dtmf-3.mp3"; sourceTree = "<group>"; };
-		57F4CA641F476014008C89AD /* dtmf-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-9.mp3"; path = "../../xcode/iOS 6/dtmf-9.mp3"; sourceTree = "<group>"; };
-		57F4CA651F476014008C89AD /* dtmf-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-1.mp3"; path = "../../xcode/iOS 6/dtmf-1.mp3"; sourceTree = "<group>"; };
-		57F4CA661F476014008C89AD /* dtmf-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-5.mp3"; path = "../../xcode/iOS 6/dtmf-5.mp3"; sourceTree = "<group>"; };
-		57F4CA671F476015008C89AD /* charging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = charging.mp3; path = "../../xcode/iOS 6/charging.mp3"; sourceTree = "<group>"; };
-		57F4CA681F476015008C89AD /* dtmf-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-7.mp3"; path = "../../xcode/iOS 6/dtmf-7.mp3"; sourceTree = "<group>"; };
-		57F4CA691F476015008C89AD /* dtmf-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-2.mp3"; path = "../../xcode/iOS 6/dtmf-2.mp3"; sourceTree = "<group>"; };
-		57F4CA6A1F476016008C89AD /* dtmf-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-4.mp3"; path = "../../xcode/iOS 6/dtmf-4.mp3"; sourceTree = "<group>"; };
-		57F4CA6B1F476016008C89AD /* dtmf-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dtmf-0.mp3"; path = "../../xcode/iOS 6/dtmf-0.mp3"; sourceTree = "<group>"; };
+		57E8DE2B24539EFD0056F2F3 /* mailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailViewController.swift; sourceTree = "<group>"; };
+		57E8DE2D2453A29F0056F2F3 /* mailListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailListTableViewCell.swift; sourceTree = "<group>"; };
+		57E8DE2F2453BAE10056F2F3 /* new-mail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "new-mail.caf"; sourceTree = "<group>"; };
 		57F4CA6C1F477E75008C89AD /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		57F4CA6E1F478D1A008C89AD /* singleCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleCodeViewController.swift; sourceTree = "<group>"; };
+		57F53CA92550A0CB00FE93BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FAC2751F479F6A00B1E254 /* reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachability.swift; sourceTree = "<group>"; };
-		615F472AA44D0AFB24568FDD /* Pods-iOS 6-iOS 6Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6-iOS 6Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS 6-iOS 6Tests/Pods-iOS 6-iOS 6Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8EC71C9A1A63ED95D7C55601 /* Pods-iOS 6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS 6/Pods-iOS 6.debug.xcconfig"; sourceTree = "<group>"; };
-		98AE1D78562508679C32396A /* Pods_iOS_6Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A229C3D615F05C3FE017F2AF /* Pods-iOS 6-iOS 6Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6-iOS 6Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS 6-iOS 6Tests/Pods-iOS 6-iOS 6Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A59C91E985743B74D8748A71 /* Pods_iOS_6_iOS_6Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6_iOS_6Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A76657F35E5C29E9C9675B1A /* Pods_iOS_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1229F5957BB3C1E9B9E93F /* Pods-iOS 6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS 6/Pods-iOS 6.release.xcconfig"; sourceTree = "<group>"; };
+		640B2E46267FEF9000EA53C7 /* Hackensack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hackensack.ttf; sourceTree = "<group>"; };
+		640B2E47267FEF9000EA53C7 /* Phosphate-Inline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Phosphate-Inline.ttf"; sourceTree = "<group>"; };
+		640B2E48267FEF9000EA53C7 /* Superclarendon Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Superclarendon Bold.ttf"; sourceTree = "<group>"; };
+		64EF8B68267FEB5C00C8286D /* splashSetup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = splashSetup.storyboard; sourceTree = "<group>"; };
+		64F626C2267FF3B700EFA757 /* splashSetupFinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = splashSetupFinishViewController.swift; path = "iOS 6/splashSetupFinishViewController.swift"; sourceTree = "<group>"; };
+		64F626C4267FF48400EFA757 /* Bridge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bridge.storyboard; sourceTree = "<group>"; };
+		64F626C6267FF49000EFA757 /* bridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgeViewController.swift; sourceTree = "<group>"; };
+		64FDDFE0281A15F900409106 /* icloudLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icloudLoginViewController.swift; sourceTree = "<group>"; };
+		ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.debug.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,29 +275,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5765E1C71F2CDA8600354EDA /* AudioToolbox.framework in Frameworks */,
-				5D097C009A7EF4B326534859 /* Pods_iOS_6.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A191F2CD7AA0020531A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E65B2C6DEA33E778FF819AA /* Pods_iOS_6Tests.framework in Frameworks */,
-				B6B881A786FA30ECD17E3E30 /* Pods_iOS_6_iOS_6Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A241F2CD7AB0020531A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1CB80A969A4E9B338C83B59F /* Pods_iOS_6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B046FCECA3F76419EB751D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */,
+				3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5714154E1F93FE9C00C79D1F /* iOS 6 Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,40 +305,78 @@
 			isa = PBXGroup;
 			children = (
 				575B5BC11F2CD8EC00F67605 /* AudioToolbox.framework */,
-				A76657F35E5C29E9C9675B1A /* Pods_iOS_6.framework */,
-				98AE1D78562508679C32396A /* Pods_iOS_6Tests.framework */,
-				22FC41106E644AF285D6E7A6 /* Pods_iOS_6UITests.framework */,
-				A59C91E985743B74D8748A71 /* Pods_iOS_6_iOS_6Tests.framework */,
+				054135A41A662C54425D2753 /* Pods_iOS_6.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57948021243922A4007385A0 /* iOS6AlertViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				57948022243922A4007385A0 /* UIPopupAlertBackground.png */,
+				57948023243922A4007385A0 /* UIPopupAlertSheetButton.png */,
+				57948024243922A4007385A0 /* UIPopupAlertSheetButtonPress.png */,
+				57948025243922A4007385A0 /* UIPopupAlertSheetDefaultButton@2x.png */,
+				57948026243922A4007385A0 /* iOS6AlertView.m */,
+				57948027243922A4007385A0 /* UIPopupAlertSheetDefaultButton.png */,
+				57948028243922A4007385A0 /* UIPopupAlertSheetButton@2x.png */,
+				57948029243922A4007385A0 /* UIPopupAlertBackground@2x.png */,
+				5794802A243922A4007385A0 /* iOS6AlertView.h */,
+				5794802B243922A4007385A0 /* UIAlertViewDimming@2x.png */,
+				5794802C243922A4007385A0 /* UIPopupAlertSheetButtonPress@2x.png */,
+				5794802D243922A4007385A0 /* UIAlertViewDimming.png */,
+			);
+			path = iOS6AlertViewLib;
+			sourceTree = "<group>";
+		};
+		57948083243922AD007385A0 /* iOS6SwitchLib */ = {
+			isa = PBXGroup;
+			children = (
+				57948084243922AD007385A0 /* UISwitchThumb@2x.png */,
+				57948085243922AD007385A0 /* iOS6Switch.h */,
+				57948086243922AD007385A0 /* UISwitchShapeShadow.png */,
+				57948087243922AD007385A0 /* UISwitchThumbPressed@2x.png */,
+				57948088243922AD007385A0 /* iOS6Switch.m */,
+				57948089243922AD007385A0 /* UISwitchShapeShadow@2x.png */,
+				5794808A243922AD007385A0 /* UISwitchShapeMask.png */,
+				5794808B243922AD007385A0 /* UISwitchShapeMask@2x.png */,
+				5794808C243922AD007385A0 /* UISwitchThumb.png */,
+				5794808D243922AD007385A0 /* UISwitchThumbPressed.png */,
+			);
+			path = iOS6SwitchLib;
 			sourceTree = "<group>";
 		};
 		57B389FC1F2CD7AA0020531A = {
 			isa = PBXGroup;
 			children = (
+				64F626C2267FF3B700EFA757 /* splashSetupFinishViewController.swift */,
+				64F626C4267FF48400EFA757 /* Bridge.storyboard */,
+				64F626C6267FF49000EFA757 /* bridgeViewController.swift */,
+				57E8DE2F2453BAE10056F2F3 /* new-mail.caf */,
 				5765E1CD1F2CDAF800354EDA /* iphone_unlock.mp3 */,
 				5765E1CC1F2CDAF600354EDA /* iphone_lock_screen.mp3 */,
-				57F4CA671F476015008C89AD /* charging.mp3 */,
-				57F4CA6B1F476016008C89AD /* dtmf-0.mp3 */,
-				57F4CA651F476014008C89AD /* dtmf-1.mp3 */,
-				57F4CA691F476015008C89AD /* dtmf-2.mp3 */,
-				57F4CA631F476013008C89AD /* dtmf-3.mp3 */,
-				57F4CA6A1F476016008C89AD /* dtmf-4.mp3 */,
-				57F4CA661F476014008C89AD /* dtmf-5.mp3 */,
-				57F4CA611F47600F008C89AD /* dtmf-6.mp3 */,
-				57F4CA681F476015008C89AD /* dtmf-7.mp3 */,
-				57F4CA5E1F47600E008C89AD /* dtmf-8.mp3 */,
-				57F4CA641F476014008C89AD /* dtmf-9.mp3 */,
-				57F4CA5F1F47600E008C89AD /* dtmf-hashtag.mp3 */,
-				57F4CA621F47600F008C89AD /* dtmf-star.mp3 */,
-				57F4CA601F47600F008C89AD /* photoShutter.mp3 */,
+				57754DF02431553D005C57E7 /* charging.mp3 */,
+				57754DF22431553E005C57E7 /* dtmf-0.mp3 */,
+				57754DEB2431553C005C57E7 /* dtmf-1.mp3 */,
+				57754E0324315545005C57E7 /* photoShutter.mp3 */,
+				57754DF32431553E005C57E7 /* dtmf-3.mp3 */,
+				57754DF12431553E005C57E7 /* dtmf-4.mp3 */,
+				57754DF42431553F005C57E7 /* dtmf-7.mp3 */,
+				57754DEF2431553D005C57E7 /* dtmf-8.mp3 */,
+				57754DF52431553F005C57E7 /* dtmf-9.mp3 */,
+				57754DE92431553B005C57E7 /* dtmf-2.mp3 */,
+				57754DEA2431553B005C57E7 /* dtmf-5.mp3 */,
+				57754DEC2431553C005C57E7 /* dtmf-6.mp3 */,
+				57754DED2431553D005C57E7 /* dtmf-hashtag.mp3 */,
+				57754DEE2431553D005C57E7 /* dtmf-star.mp3 */,
+				640B2E45267FEF9000EA53C7 /* Fonts */,
+				57948083243922AD007385A0 /* iOS6SwitchLib */,
+				57948021243922A4007385A0 /* iOS6AlertViewLib */,
 				57B38A071F2CD7AA0020531A /* iOS 6 */,
-				57B38A1F1F2CD7AA0020531A /* iOS 6Tests */,
-				57B38A2A1F2CD7AB0020531A /* iOS 6UITests */,
 				5714154E1F93FE9C00C79D1F /* iOS 6 Keyboard */,
 				57B38A061F2CD7AA0020531A /* Products */,
 				575B5BC01F2CD8EC00F67605 /* Frameworks */,
-				99A06F1CA37FB2BC73505F11 /* Pods */,
+				18B046FCECA3F76419EB751D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -284,8 +384,6 @@
 			isa = PBXGroup;
 			children = (
 				57B38A051F2CD7AA0020531A /* iOS 6.app */,
-				57B38A1C1F2CD7AA0020531A /* iOS 6Tests.xctest */,
-				57B38A271F2CD7AB0020531A /* iOS 6UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,15 +391,27 @@
 		57B38A071F2CD7AA0020531A /* iOS 6 */ = {
 			isa = PBXGroup;
 			children = (
+				574AB6042468B1B100D9EEC4 /* metaWallpaperChangerCollectionViewCell.swift */,
+				574AB6062468B1CB00D9EEC4 /* metaWallpaperChangerViewController.swift */,
+				57184B0B24527AD700D1E8DD /* SettingsBundleHelper.swift */,
+				578F6ADB24735B05005E8A09 /* Helper.swift */,
+				57E8DE2B24539EFD0056F2F3 /* mailViewController.swift */,
+				57E8DE2D2453A29F0056F2F3 /* mailListTableViewCell.swift */,
+				57184B0924527AD400D1E8DD /* Settings.bundle */,
 				57FAC2751F479F6A00B1E254 /* reachability.swift */,
 				57F4CA6C1F477E75008C89AD /* testViewController.swift */,
+				574AB6002468AFC500D9EEC4 /* wallpaperView.swift */,
 				57B38A4B1F2CD80E0020531A /* Main.storyboard */,
+				64FDDFE0281A15F900409106 /* icloudLoginViewController.swift */,
+				64EF8B68267FEB5C00C8286D /* splashSetup.storyboard */,
+				579B0BB824FDA5F800BC5C14 /* installOSViewController.swift */,
 				572C1BD41F956A0F0094CF77 /* statusBarViewController.swift */,
 				57B38A481F2CD80E0020531A /* iPad.storyboard */,
 				57B38A491F2CD80E0020531A /* LaunchScreen.storyboard */,
-				57B38A121F2CD7AA0020531A /* Assets.xcassets */,
+				5741DF6E246A05E800C2D16D /* currentCallViewController.swift */,
 				57B38A081F2CD7AA0020531A /* AppDelegate.swift */,
 				57404CD81F92E6D000A19719 /* LocationDelegate.swift */,
+				57F53CA92550A0CB00FE93BF /* Assets.xcassets */,
 				57404CD61F92E5FF00A19719 /* compassViewController.swift */,
 				57983E0E1F48868000C1BB8F /* setup1ViewController.swift */,
 				57983E0C1F4884A300C1BB8F /* setup.storyboard */,
@@ -311,6 +421,7 @@
 				57B38A0A1F2CD7AA0020531A /* ViewController.swift */,
 				57B38A391F2CD80E0020531A /* appstoreViewController.swift */,
 				57B38A3A1F2CD80E0020531A /* boot1ViewController.swift */,
+				5794809724392E9A007385A0 /* metaSettingsViewController.swift */,
 				57B38A3B1F2CD80E0020531A /* boot2ViewController.swift */,
 				57B38A3C1F2CD80E0020531A /* boot3ViewController.swift */,
 				57B38A3D1F2CD80E0020531A /* boot4ViewController.swift */,
@@ -327,6 +438,8 @@
 				57B38A451F2CD80E0020531A /* facebookViewController.swift */,
 				57B38A461F2CD80E0020531A /* homescreen2ViewController.swift */,
 				57B38A4A1F2CD80E0020531A /* lockscreenViewController.swift */,
+				57BB51A2246B5B2D0096CAA2 /* phoneAdressbookViewController.swift */,
+				57BB51A4246B5B470096CAA2 /* adressBookTableViewCell.swift */,
 				57D8B4611F2E757200E97D7C /* shimmerButtonViewController.swift */,
 				57B38A4C1F2CD80E0020531A /* mapsViewController.swift */,
 				5783F2FC1F2D3E7C009FB601 /* musicViewController.swift */,
@@ -336,6 +449,7 @@
 				57B38A4F1F2CD80E0020531A /* noverbosebootViewController.swift */,
 				57B38A501F2CD80E0020531A /* passbookViewController.swift */,
 				57B38A511F2CD80E0020531A /* safariViewController.swift */,
+				5794809924393610007385A0 /* mvgViewController.swift */,
 				57B38A521F2CD80E0020531A /* settingsViewController.swift */,
 				57B38A531F2CD80E0020531A /* tttlViewController.swift */,
 				57B38A541F2CD80E0020531A /* unlock1ViewController.swift */,
@@ -350,33 +464,14 @@
 			path = "iOS 6";
 			sourceTree = "<group>";
 		};
-		57B38A1F1F2CD7AA0020531A /* iOS 6Tests */ = {
+		640B2E45267FEF9000EA53C7 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				57B38A201F2CD7AA0020531A /* iOS_6Tests.swift */,
-				57B38A221F2CD7AB0020531A /* Info.plist */,
+				640B2E46267FEF9000EA53C7 /* Hackensack.ttf */,
+				640B2E47267FEF9000EA53C7 /* Phosphate-Inline.ttf */,
+				640B2E48267FEF9000EA53C7 /* Superclarendon Bold.ttf */,
 			);
-			path = "iOS 6Tests";
-			sourceTree = "<group>";
-		};
-		57B38A2A1F2CD7AB0020531A /* iOS 6UITests */ = {
-			isa = PBXGroup;
-			children = (
-				57B38A2B1F2CD7AB0020531A /* iOS_6UITests.swift */,
-				57B38A2D1F2CD7AB0020531A /* Info.plist */,
-			);
-			path = "iOS 6UITests";
-			sourceTree = "<group>";
-		};
-		99A06F1CA37FB2BC73505F11 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8EC71C9A1A63ED95D7C55601 /* Pods-iOS 6.debug.xcconfig */,
-				DB1229F5957BB3C1E9B9E93F /* Pods-iOS 6.release.xcconfig */,
-				615F472AA44D0AFB24568FDD /* Pods-iOS 6-iOS 6Tests.debug.xcconfig */,
-				A229C3D615F05C3FE017F2AF /* Pods-iOS 6-iOS 6Tests.release.xcconfig */,
-			);
-			name = Pods;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,14 +481,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57B38A301F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6" */;
 			buildPhases = (
-				504BA176B9F5821090E688C8 /* [CP] Check Pods Manifest.lock */,
+				6D567970808BE349CFF78045 /* [CP] Check Pods Manifest.lock */,
 				57B38A011F2CD7AA0020531A /* Sources */,
 				57B38A021F2CD7AA0020531A /* Frameworks */,
 				57B38A031F2CD7AA0020531A /* Resources */,
 				57DF93301F44B86700576006 /* Embed Frameworks */,
-				6A92C07B4E8B3D32E01919FE /* [CP] Embed Pods Frameworks */,
-				8A4155899B65038E161DF902 /* [CP] Copy Pods Resources */,
 				571415581F93FE9C00C79D1F /* Embed App Extensions */,
+				F53FADE9DB2EA8FD136BE1DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,45 +498,6 @@
 			productReference = 57B38A051F2CD7AA0020531A /* iOS 6.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57B38A1B1F2CD7AA0020531A /* iOS 6Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57B38A331F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6Tests" */;
-			buildPhases = (
-				FF54604096FBB5C325DD8FC4 /* [CP] Check Pods Manifest.lock */,
-				57B38A181F2CD7AA0020531A /* Sources */,
-				57B38A191F2CD7AA0020531A /* Frameworks */,
-				57B38A1A1F2CD7AA0020531A /* Resources */,
-				7C76D2A706673EB471A23B9A /* [CP] Embed Pods Frameworks */,
-				9F706B0A3E012D3743BEBEDF /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57B38A1E1F2CD7AA0020531A /* PBXTargetDependency */,
-			);
-			name = "iOS 6Tests";
-			productName = "iOS 6Tests";
-			productReference = 57B38A1C1F2CD7AA0020531A /* iOS 6Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		57B38A261F2CD7AB0020531A /* iOS 6UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57B38A361F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6UITests" */;
-			buildPhases = (
-				57B38A231F2CD7AB0020531A /* Sources */,
-				57B38A241F2CD7AB0020531A /* Frameworks */,
-				57B38A251F2CD7AB0020531A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57B38A291F2CD7AB0020531A /* PBXTargetDependency */,
-			);
-			name = "iOS 6UITests";
-			productName = "iOS 6UITests";
-			productReference = 57B38A271F2CD7AB0020531A /* iOS 6UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -450,7 +505,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Victor Lobe";
 				TargetAttributes = {
 					57B38A041F2CD7AA0020531A = {
@@ -466,23 +521,11 @@
 							};
 						};
 					};
-					57B38A1B1F2CD7AA0020531A = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = F6ZD5PBKMC;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 57B38A041F2CD7AA0020531A;
-					};
-					57B38A261F2CD7AB0020531A = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = F6ZD5PBKMC;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 57B38A041F2CD7AA0020531A;
-					};
 				};
 			};
 			buildConfigurationList = 57B38A001F2CD7AA0020531A /* Build configuration list for PBXProject "iOS 6" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -494,8 +537,6 @@
 			projectRoot = "";
 			targets = (
 				57B38A041F2CD7AA0020531A /* iOS 6 */,
-				57B38A1B1F2CD7AA0020531A /* iOS 6Tests */,
-				57B38A261F2CD7AB0020531A /* iOS 6UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -505,44 +546,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5794808E243922AD007385A0 /* UISwitchThumb@2x.png in Resources */,
 				57983E0D1F4884A300C1BB8F /* setup.storyboard in Resources */,
+				57948095243922AD007385A0 /* UISwitchThumb.png in Resources */,
+				64EF8B69267FEB5C00C8286D /* splashSetup.storyboard in Resources */,
+				57948038243922A5007385A0 /* UIAlertViewDimming.png in Resources */,
 				57B38A691F2CD80E0020531A /* LaunchScreen.storyboard in Resources */,
+				57948096243922AD007385A0 /* UISwitchThumbPressed.png in Resources */,
 				5765E1CE1F2CDB0B00354EDA /* iphone_unlock.mp3 in Resources */,
 				57B38A681F2CD80E0020531A /* iPad.storyboard in Resources */,
-				57B38A131F2CD7AA0020531A /* Assets.xcassets in Resources */,
-				5765E1C61F2CDA3A00354EDA /* Info.plist in Resources */,
+				57E8DE302453BAE10056F2F3 /* new-mail.caf in Resources */,
+				57754E0024315540005C57E7 /* dtmf-3.mp3 in Resources */,
+				57754E0424315545005C57E7 /* photoShutter.mp3 in Resources */,
+				57948035243922A5007385A0 /* UIPopupAlertBackground@2x.png in Resources */,
+				57754DF624315540005C57E7 /* dtmf-2.mp3 in Resources */,
+				57754E0224315540005C57E7 /* dtmf-9.mp3 in Resources */,
+				57948090243922AD007385A0 /* UISwitchThumbPressed@2x.png in Resources */,
+				57948031243922A5007385A0 /* UIPopupAlertSheetDefaultButton@2x.png in Resources */,
+				57754E0124315540005C57E7 /* dtmf-7.mp3 in Resources */,
+				57754DF924315540005C57E7 /* dtmf-6.mp3 in Resources */,
+				57948030243922A5007385A0 /* UIPopupAlertSheetButtonPress.png in Resources */,
+				57754DFC24315540005C57E7 /* dtmf-8.mp3 in Resources */,
+				57948037243922A5007385A0 /* UIPopupAlertSheetButtonPress@2x.png in Resources */,
+				57948093243922AD007385A0 /* UISwitchShapeMask.png in Resources */,
+				57754DFE24315540005C57E7 /* dtmf-4.mp3 in Resources */,
+				640B2E4A267FEF9000EA53C7 /* Phosphate-Inline.ttf in Resources */,
+				57948092243922AD007385A0 /* UISwitchShapeShadow@2x.png in Resources */,
+				57754DF724315540005C57E7 /* dtmf-5.mp3 in Resources */,
+				57F53CAA2550A0CC00FE93BF /* Assets.xcassets in Resources */,
+				57754DFB24315540005C57E7 /* dtmf-star.mp3 in Resources */,
+				57754DFF24315540005C57E7 /* dtmf-0.mp3 in Resources */,
 				5765E1CF1F2CDB0D00354EDA /* iphone_lock_screen.mp3 in Resources */,
+				64F626C5267FF48400EFA757 /* Bridge.storyboard in Resources */,
+				5794802E243922A5007385A0 /* UIPopupAlertBackground.png in Resources */,
+				57948034243922A5007385A0 /* UIPopupAlertSheetButton@2x.png in Resources */,
+				640B2E49267FEF9000EA53C7 /* Hackensack.ttf in Resources */,
+				57948036243922A5007385A0 /* UIAlertViewDimming@2x.png in Resources */,
 				57B38A6B1F2CD80E0020531A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A1A1F2CD7AA0020531A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A251F2CD7AB0020531A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				57184B0A24527AD400D1E8DD /* Settings.bundle in Resources */,
+				57754DFD24315540005C57E7 /* charging.mp3 in Resources */,
+				640B2E4B267FEF9000EA53C7 /* Superclarendon Bold.ttf in Resources */,
+				57948033243922A5007385A0 /* UIPopupAlertSheetDefaultButton.png in Resources */,
+				5794802F243922A5007385A0 /* UIPopupAlertSheetButton.png in Resources */,
+				57754DFA24315540005C57E7 /* dtmf-hashtag.mp3 in Resources */,
+				5794808F243922AD007385A0 /* UISwitchShapeShadow.png in Resources */,
+				57948094243922AD007385A0 /* UISwitchShapeMask@2x.png in Resources */,
+				57754DF824315540005C57E7 /* dtmf-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		504BA176B9F5821090E688C8 /* [CP] Check Pods Manifest.lock */ = {
+		6D567970808BE349CFF78045 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-iOS 6-checkManifestLockResult.txt",
 			);
@@ -551,96 +620,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A92C07B4E8B3D32E01919FE /* [CP] Embed Pods Frameworks */ = {
+		F53FADE9DB2EA8FD136BE1DC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6/Pods-iOS 6-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
-				"${BUILT_PRODUCTS_DIR}/UIView+Shimmer/UIView_Shimmer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS 6/Pods-iOS 6-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OrientationTracker/OrientationTracker.framework",
+				"${BUILT_PRODUCTS_DIR}/Postal/Postal.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyCam/SwiftyCam.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIView_Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrientationTracker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Postal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyCam.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6/Pods-iOS 6-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C76D2A706673EB471A23B9A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6-iOS 6Tests/Pods-iOS 6-iOS 6Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
-				"${BUILT_PRODUCTS_DIR}/UIView+Shimmer/UIView_Shimmer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIView_Shimmer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6-iOS 6Tests/Pods-iOS 6-iOS 6Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A4155899B65038E161DF902 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6/Pods-iOS 6-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9F706B0A3E012D3743BEBEDF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS 6-iOS 6Tests/Pods-iOS 6-iOS 6Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF54604096FBB5C325DD8FC4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS 6-iOS 6Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS 6/Pods-iOS 6-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -651,17 +652,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F4CA6F1F478D1A008C89AD /* singleCodeViewController.swift in Sources */,
+				57E8DE2C24539EFD0056F2F3 /* mailViewController.swift in Sources */,
 				57B38A6C1F2CD80E0020531A /* mapsViewController.swift in Sources */,
 				57B38A741F2CD80E0020531A /* unlock1ViewController.swift in Sources */,
+				5794809A24393611007385A0 /* mvgViewController.swift in Sources */,
 				57B38A661F2CD80E0020531A /* facebookViewController.swift in Sources */,
 				57404CD91F92E6D100A19719 /* LocationDelegate.swift in Sources */,
 				57B38A5B1F2CD80E0020531A /* boot1ViewController.swift in Sources */,
 				57DA0CB81F47AD9F001DECC4 /* bootErrorViewController.swift in Sources */,
+				574AB6072468B1CB00D9EEC4 /* metaWallpaperChangerViewController.swift in Sources */,
 				57B38A5A1F2CD80E0020531A /* appstoreViewController.swift in Sources */,
+				5741DF6F246A05E800C2D16D /* currentCallViewController.swift in Sources */,
+				574AB6052468B1B100D9EEC4 /* metaWallpaperChangerCollectionViewCell.swift in Sources */,
 				57B38A5D1F2CD80E0020531A /* boot3ViewController.swift in Sources */,
 				57B38A721F2CD80E0020531A /* settingsViewController.swift in Sources */,
 				57B38A761F2CD80E0020531A /* unlock3ViewController.swift in Sources */,
 				57983E0F1F48868000C1BB8F /* setup1ViewController.swift in Sources */,
+				57184B0C24527AD800D1E8DD /* SettingsBundleHelper.swift in Sources */,
 				57B38A731F2CD80E0020531A /* tttlViewController.swift in Sources */,
 				5765E1C51F2CD9D400354EDA /* ViewController.swift in Sources */,
 				57B38A621F2CD80E0020531A /* boot8ViewController.swift in Sources */,
@@ -670,65 +677,48 @@
 				57B38A701F2CD80E0020531A /* passbookViewController.swift in Sources */,
 				57B38A751F2CD80E0020531A /* unlock2ViewController.swift in Sources */,
 				57B38A5E1F2CD80E0020531A /* boot4ViewController.swift in Sources */,
+				64F626C3267FF3B700EFA757 /* splashSetupFinishViewController.swift in Sources */,
 				57404CD71F92E5FF00A19719 /* compassViewController.swift in Sources */,
 				57B38A111F2CD7AA0020531A /* iOS_6.xcdatamodeld in Sources */,
+				579B0BB924FDA5F800BC5C14 /* installOSViewController.swift in Sources */,
+				57BB51A3246B5B2D0096CAA2 /* phoneAdressbookViewController.swift in Sources */,
 				5783F2FB1F2D3B6F009FB601 /* loxoneViewController.swift in Sources */,
 				5783F2FD1F2D3E7C009FB601 /* musicViewController.swift in Sources */,
 				572C1BD51F956A0F0094CF77 /* statusBarViewController.swift in Sources */,
 				57B38A631F2CD80E0020531A /* boot9ViewController.swift in Sources */,
 				57B38A6E1F2CD80E0020531A /* notesViewController.swift in Sources */,
 				57B38A651F2CD80E0020531A /* cameraViewController.swift in Sources */,
+				57BB51A5246B5B470096CAA2 /* adressBookTableViewCell.swift in Sources */,
 				57B38A5F1F2CD80E0020531A /* boot5ViewController.swift in Sources */,
 				57B38A5C1F2CD80E0020531A /* boot2ViewController.swift in Sources */,
+				574AB6012468AFC500D9EEC4 /* wallpaperView.swift in Sources */,
 				57B38A601F2CD80E0020531A /* boot6ViewController.swift in Sources */,
 				57B38A781F2CD80E0020531A /* unlock5ViewController.swift in Sources */,
+				57E8DE2E2453A29F0056F2F3 /* mailListTableViewCell.swift in Sources */,
 				57F4CA6D1F477E75008C89AD /* testViewController.swift in Sources */,
 				57B38A611F2CD80E0020531A /* boot7ViewController.swift in Sources */,
 				574268221F37A358009A39DD /* consoleViewController.swift in Sources */,
 				57C642881F2E264600206A7D /* phoneViewController.swift in Sources */,
 				57D8B4621F2E757200E97D7C /* shimmerButtonViewController.swift in Sources */,
+				578F6ADC24735B05005E8A09 /* Helper.swift in Sources */,
+				64FDDFE1281A15F900409106 /* icloudLoginViewController.swift in Sources */,
 				57B38A711F2CD80E0020531A /* safariViewController.swift in Sources */,
 				57B38A091F2CD7AA0020531A /* AppDelegate.swift in Sources */,
 				57B38A771F2CD80E0020531A /* unlock4ViewController.swift in Sources */,
+				57948091243922AD007385A0 /* iOS6Switch.m in Sources */,
+				64F626C7267FF49000EFA757 /* bridgeViewController.swift in Sources */,
 				57B38A6F1F2CD80E0020531A /* noverbosebootViewController.swift in Sources */,
 				57B38A641F2CD80E0020531A /* calculator.swift in Sources */,
 				57B38A6D1F2CD80E0020531A /* messagesViewController.swift in Sources */,
 				57FAC2761F479F6B00B1E254 /* reachability.swift in Sources */,
 				57DAD1E21F77EF5600144B15 /* lockscreenDeactivatedViewController.swift in Sources */,
+				57948032243922A5007385A0 /* iOS6AlertView.m in Sources */,
 				57B38A6A1F2CD80E0020531A /* lockscreenViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A181F2CD7AA0020531A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57B38A211F2CD7AA0020531A /* iOS_6Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B38A231F2CD7AB0020531A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57B38A2C1F2CD7AB0020531A /* iOS_6UITests.swift in Sources */,
+				5794809824392E9A007385A0 /* metaSettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		57B38A1E1F2CD7AA0020531A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57B38A041F2CD7AA0020531A /* iOS 6 */;
-			targetProxy = 57B38A1D1F2CD7AA0020531A /* PBXContainerItemProxy */;
-		};
-		57B38A291F2CD7AB0020531A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57B38A041F2CD7AA0020531A /* iOS 6 */;
-			targetProxy = 57B38A281F2CD7AB0020531A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		57B38A2E1F2CD7AB0020531A /* Debug */ = {
@@ -741,15 +731,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -772,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -792,15 +791,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -817,7 +825,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -828,105 +836,55 @@
 		};
 		57B38A311F2CD7AB0020531A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC71C9A1A63ED95D7C55601 /* Pods-iOS 6.debug.xcconfig */;
+			baseConfigurationReference = ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/DeviceKit",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependencies/build/macos/lib",
+					"$(PROJECT_DIR)/dependencies/build/ios/lib",
+					"$(PROJECT_DIR)/dependencies/build/ios/lib/sasl2",
+				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6-public";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PRODUCT_NAME = "iOS 6";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		57B38A321F2CD7AB0020531A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB1229F5957BB3C1E9B9E93F /* Pods-iOS 6.release.xcconfig */;
+			baseConfigurationReference = 3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/DeviceKit",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependencies/build/macos/lib",
+					"$(PROJECT_DIR)/dependencies/build/ios/lib",
+					"$(PROJECT_DIR)/dependencies/build/ios/lib/sasl2",
+				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6-public";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		57B38A341F2CD7AB0020531A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 615F472AA44D0AFB24568FDD /* Pods-iOS 6-iOS 6Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				INFOPLIST_FILE = "iOS 6Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 6.app/iOS 6";
-			};
-			name = Debug;
-		};
-		57B38A351F2CD7AB0020531A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A229C3D615F05C3FE017F2AF /* Pods-iOS 6-iOS 6Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				INFOPLIST_FILE = "iOS 6Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 6.app/iOS 6";
-			};
-			name = Release;
-		};
-		57B38A371F2CD7AB0020531A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				INFOPLIST_FILE = "iOS 6UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "iOS 6";
-			};
-			name = Debug;
-		};
-		57B38A381F2CD7AB0020531A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = F6ZD5PBKMC;
-				INFOPLIST_FILE = "iOS 6UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "iOS 6";
+				PRODUCT_NAME = "iOS 6";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -947,24 +905,6 @@
 			buildConfigurations = (
 				57B38A311F2CD7AB0020531A /* Debug */,
 				57B38A321F2CD7AB0020531A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57B38A331F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				57B38A341F2CD7AB0020531A /* Debug */,
-				57B38A351F2CD7AB0020531A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57B38A361F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				57B38A371F2CD7AB0020531A /* Debug */,
-				57B38A381F2CD7AB0020531A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

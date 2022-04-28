@@ -52,7 +52,7 @@ class boot8ViewController: UIViewController {
         
 }
     
-    func timeToMoveOn() {
+    @objc func timeToMoveOn() {
         self.performSegue(withIdentifier: "boot8", sender: self)
     }
     

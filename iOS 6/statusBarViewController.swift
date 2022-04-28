@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ReachabilitySwift
+import Reachability
 import CoreTelephony
 import AVFoundation
 
@@ -28,12 +28,8 @@ class statusBarViewController: UIViewController {
     @IBOutlet var statusBarBackground: UIView!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var battery: UIImageView!
-    @IBOutlet var providerLbl: UILabel!
     @IBOutlet var signalStrenght: UIImageView!
-    @IBOutlet var networkState: UIImageView!
-    @IBOutlet var networkCellState: UILabel!
-    @IBOutlet var batteryPercentageLbl: UILabel!
-    
+    @IBOutlet var connectivyIcon: UIImageView!
     
     
     
@@ -78,46 +74,7 @@ class statusBarViewController: UIViewController {
         let networkInfo = CTTelephonyNetworkInfo()
         let carrier = networkInfo.subscriberCellularProvider
         let carrierName = carrier?.carrierName
-        providerLbl.text = carrierName
         print(carrierName!)
-        
-        
-        
-        if reachability.isReachable {
-            if reachability.isReachableViaWiFi {
-                networkState.image = #imageLiteral(resourceName: "wifiStatus")
-                
-                
-                
-            }
-            
-            if reachability.isReachableViaWWAN {
-                let networkInfo = CTTelephonyNetworkInfo()
-                let networkString = networkInfo.currentRadioAccessTechnology
-                
-                if networkString == CTRadioAccessTechnologyLTE{
-                    // LTE (4G)
-                    networkCellState.text = "LTE"
-                }else if networkString == CTRadioAccessTechnologyWCDMA{
-                    // 3G
-                    networkCellState.text = "3G"
-                }else if networkString == CTRadioAccessTechnologyEdge{
-                    // EDGE (2G)
-                    networkCellState.text = "E"
-                } else if networkString == CTRadioAccessTechnologyGPRS{
-                    //GPRS (o)
-                    networkCellState.text = "o"
-                }
-                
-                
-            }
-            
-        } else {
-            
-            
-            
-            
-        }
         
         
         
@@ -169,9 +126,7 @@ class statusBarViewController: UIViewController {
         var PbatteryLevel: Float {
             return UIDevice.current.batteryLevel
         }
-        
-        self.batteryPercentageLbl.text = String(format: "%.0f%%", PbatteryLevel * 100)
-        
+                
         
         
         let status = UIDevice.current.batteryState

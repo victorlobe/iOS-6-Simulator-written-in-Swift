@@ -145,7 +145,7 @@ class tttlViewController: UIViewController {
         
     }
     
-    func updateCounter() {
+    @objc func updateCounter() {
         
         timerInt -= 1
         
@@ -175,7 +175,7 @@ class tttlViewController: UIViewController {
         
     }
     
-    func updateScoreTimer() {
+    @objc func updateScoreTimer() {
         
         scoreInt += 1
         counterLabel.text = String(scoreInt)
@@ -185,7 +185,7 @@ class tttlViewController: UIViewController {
     }
     
     
-    func updateTimer() {
+    @objc func updateTimer() {
         
         
         let timeFormatter = DateFormatter()

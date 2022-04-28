@@ -18,7 +18,7 @@ class noverbosebootViewController: UIViewController {
         
     }
 
-    func timeToMoveOn() {
+    @objc func timeToMoveOn() {
         self.performSegue(withIdentifier: "tolocknoverbose", sender: self)
     }
     

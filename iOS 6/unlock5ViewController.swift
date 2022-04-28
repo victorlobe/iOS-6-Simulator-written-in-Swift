@@ -140,7 +140,7 @@ class unlock5ViewController: UIViewController {
         
     }
     
-    func timeToMoveOn() {
+    @objc func timeToMoveOn() {
         self.performSegue(withIdentifier: "home", sender: self)
     }
     

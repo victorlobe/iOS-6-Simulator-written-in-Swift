@@ -29,7 +29,7 @@ class boot3ViewController: UIViewController {
     }
     
     
-    func timeToMoveOn() {
+    @objc func timeToMoveOn() {
         self.performSegue(withIdentifier: "boot3", sender: self)
     }
     

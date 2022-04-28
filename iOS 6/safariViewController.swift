@@ -10,8 +10,6 @@ import UIKit
 
 class safariViewController: UIViewController, UIWebViewDelegate {
 
-    @IBOutlet var timeLabel: UILabel!
-    @IBOutlet var battery: UIImageView!
     @IBOutlet var urltextfield: UITextField!
     @IBOutlet var webView: UIWebView!
     @IBOutlet var googleTextfield: UITextField!
@@ -19,9 +17,6 @@ class safariViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet var webTitle: UILabel!
     @IBOutlet var fail: UIImageView!
     
-    
-    var MyBattery: Float = 0.0
-    var timer = Timer()
     @IBOutlet var shareOut: UIButton!
     
     
@@ -43,85 +38,27 @@ class safariViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         
         fail.isHidden = true
-        
-        
-        
-        progressBar.transform = CGAffineTransform(scaleX: 1, y: 18.5)
+        progressBar.transform = CGAffineTransform(scaleX: 1, y: 8.2)
         
         webView.delegate = self
-        
-        timer = Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
-        
+                
         webTitle.text = "Ohne Titel"
         
-        
-        let batteryLevel = UIDevice.current.batteryLevel*100
-        
-        
-        
-        print ("My Battery:\(batteryLevel)")
-        
-        
-        MyBattery = batteryLevel
-        
-        
-        switch MyBattery {
-            
-        case 90.0...100.0:
-            battery.image = UIImage(named: "100.png")
-            
-        case 80.0..<90.0:
-            battery.image = UIImage(named: "90.png")
-            
-        case 70.0..<80.0:
-            battery.image = UIImage(named: "80.png")
-            
-        case 60.0..<70.0:
-            battery.image = UIImage(named: "70.png")
-            
-        case 50.0..<60.0:
-            battery.image = UIImage(named: "60.png")
-            
-        case 40.0..<50.0:
-            battery.image = UIImage(named: "50.png")
-            
-        case 30.0..<40.0:
-            battery.image = UIImage(named: "40.png")
-            
-        case 20.0..<30.0:
-            battery.image = UIImage(named: "30.png")
-            
-        case 15.0..<20.0:
-            battery.image = UIImage(named: "20.png")
-            
-        case 10.0..<15.0:
-            battery.image = UIImage(named: "15.png")
-            
-        case 5.0..<10.0:
-            battery.image = UIImage(named: "10.png")
-            
-        case 0.0..<5.0:
-            battery.image = UIImage(named: "5.png")
-            
-            
-            
-        default:
-            battery.image = UIImage(named: "0.png")
-            
-            
-            
+        if UserDefaults.standard.url(forKey: "safariURL") == nil {} else {
+            let requestURL = UserDefaults.standard.url(forKey: "safariURL")
+            let request = URLRequest(url: requestURL!)
+            webView.loadRequest(request)
         }
-        
-        
+
         
     }
     
     func webViewDidStartLoad(_ webView: UIWebView) {
-        
+        UserDefaults.standard.set(self.webView.request?.url, forKey: "safariURL")
         self.progressBar.setProgress(0.1, animated: false)
         self.urltextfield.text = self.webView.request?.url?.absoluteString
         fail.isHidden = true
-        
+        self.progressBar.isHidden = false
         webTitle.text = "Laden"
     }
     
@@ -130,7 +67,9 @@ class safariViewController: UIViewController, UIWebViewDelegate {
         
         self.progressBar.setProgress(1.0, animated: true)
         
-        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
+            self.progressBar.isHidden = true
+        }
         
         self.urltextfield.text = self.webView.request?.url?.absoluteString
         
@@ -145,23 +84,6 @@ class safariViewController: UIViewController, UIWebViewDelegate {
         self.progressBar.setProgress(1.0, animated: true)
         webTitle.text = "Seite kann nicht geöffnet werden"
         fail.isHidden = false
-        
-        
-    }
-    
-    
-    
-    @objc func updateTimer() {
-        
-        
-        let timeFormatter = DateFormatter()
-        
-        
-        timeFormatter.timeStyle = .short
-        
-        
-        timeLabel.text = timeFormatter.string(from: NSDate() as Date)
-        
         
         
     }
@@ -193,16 +115,18 @@ class safariViewController: UIViewController, UIWebViewDelegate {
         webView.loadRequest(urlrequest)
         webView.delegate=self
         
-        
-        
-        
     }
     
     
     
         
         
-    
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: false, completion: nil)
+    }
+    override func preferredScreenEdgesDeferringSystemGestures() -> UIRectEdge {
+        return .all
+    }
     
 }
 

@@ -12,10 +12,6 @@ import AVFoundation
 class phoneViewController: UIViewController {
     
     var player: AVAudioPlayer = AVAudioPlayer()
-
-    
-    @IBOutlet var timeLabel: UILabel!
-    @IBOutlet var battery: UIImageView!
     
     @IBOutlet var numberLabel: UILabel!
     
@@ -147,9 +143,10 @@ class phoneViewController: UIViewController {
         }
     }
     @IBAction func call(_ sender: Any) {
-        
         callNumber(phoneNumber: numberLabel.text!)
         
+        UserDefaults.standard.set(numberLabel.text, forKey: "callSessionNumber")
+            self.performSegue(withIdentifier: "phoneToCall", sender: self)
     }
     
     @IBAction func star(_ sender: Any) {
@@ -167,9 +164,11 @@ class phoneViewController: UIViewController {
         
         
     }
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: false, completion: nil)
+    }
     
     @IBAction func hashtag(_ sender: Any) {
-        
         numberLabel.text = (numberLabel.text ?? "") + "#"
         if let asset = NSDataAsset(name:"dtmf-hashtag"){
             
@@ -186,131 +185,28 @@ class phoneViewController: UIViewController {
     
     
     @IBAction func deleteBtn(_ sender: Any) {
-        
-        numberLabel.text = ""
-        
-        
+        numberLabel.text = String(numberLabel.text!.dropLast())
     }
     
     
     @IBAction func addToContacts(_ sender: Any) {
-        
-        
-        
+        let pasteboardString: String? = UIPasteboard.general.string
+        if let theString = pasteboardString {
+            numberLabel.text = theString
+        }
     }
-    
-    
-    @IBAction func voicemail(_ sender: Any) {
-        
-                callNumber(phoneNumber: "9911")
-        
-        
-    }
-    
-    
-    
-    
     
     var emptyString = String()
-    
-    var MyBattery: Float = 0.0
-    var timer = Timer()
-    
+        
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        timer = Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
-        
-        
-        let batteryLevel = UIDevice.current.batteryLevel*100
-        
-        
-        
-        print ("My Battery:\(batteryLevel)")
-        
-        
-        MyBattery = batteryLevel
-        
-        
-        switch MyBattery {
-            
-        case 90.0...100.0:
-            battery.image = UIImage(named: "100.png")
-            
-        case 80.0..<90.0:
-            battery.image = UIImage(named: "90.png")
-            
-        case 70.0..<80.0:
-            battery.image = UIImage(named: "80.png")
-            
-        case 60.0..<70.0:
-            battery.image = UIImage(named: "70.png")
-            
-        case 50.0..<60.0:
-            battery.image = UIImage(named: "60.png")
-            
-        case 40.0..<50.0:
-            battery.image = UIImage(named: "50.png")
-            
-        case 30.0..<40.0:
-            battery.image = UIImage(named: "40.png")
-            
-        case 20.0..<30.0:
-            battery.image = UIImage(named: "30.png")
-            
-        case 15.0..<20.0:
-            battery.image = UIImage(named: "20.png")
-            
-        case 10.0..<15.0:
-            battery.image = UIImage(named: "15.png")
-            
-        case 5.0..<10.0:
-            battery.image = UIImage(named: "10.png")
-            
-        case 0.0..<5.0:
-            battery.image = UIImage(named: "5.png")
-            
-            
-            
-        default:
-            battery.image = UIImage(named: "0.png")
-            
-            
-            
-        }
-        
-    }
-    
-    
-    @objc func updateTimer() {
-        
-        
-        let timeFormatter = DateFormatter()
-        
-        
-        timeFormatter.timeStyle = .short
-        
-        
-        timeLabel.text = timeFormatter.string(from: NSDate() as Date)
-        
-        
-        
-    
 
-    
-        
-        numberLabel.text = (numberLabel.text ?? "") + ""
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     private func callNumber(phoneNumber:String) {
-        if let phoneCallURL:NSURL = NSURL(string:"tel://\(phoneNumber)") {
+        if let phoneCallURL:NSURL = NSURL(string:"tel://\(phoneNumber)".components(separatedBy: .whitespacesAndNewlines).joined()) {
             let application:UIApplication = UIApplication.shared
             if (application.canOpenURL(phoneCallURL as URL)) {
                 application.openURL(phoneCallURL as URL);

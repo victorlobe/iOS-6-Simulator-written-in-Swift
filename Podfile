@@ -8,12 +8,8 @@ target 'iOS 6' do
   # Pods for iOS 6
 	use_frameworks!
 	pod 'ReachabilitySwift'
-	pod 'UIView+Shimmer'
-	pod 'Shimmer'
-
-  target 'iOS 6Tests' do
-
-  end
-
+	pod "SwiftyCam"
+	pod 'OrientationTracker'
+	pod 'Postal', :git => 'https://github.com/snipsco/Postal.git', :branch => 'master'
 
 end

@@ -66,14 +66,14 @@ class boot9ViewController: UIViewController {
         
     }
     
-    func timeToMoveOn() {
+     @objc func timeToMoveOn() {
         if error == false {
         self.performSegue(withIdentifier: "tolock", sender: self)
         } else {}
     }
     
     
-    func updateBatteryState() {
+    @objc func updateBatteryState() {
         
         let status = UIDevice.current.batteryState
         switch status {
@@ -120,7 +120,7 @@ class boot9ViewController: UIViewController {
             let when = DispatchTime.now() + 2
             DispatchQueue.main.asyncAfter(deadline: when) {
 
-                self.performSegue(withIdentifier: "bootError", sender: Any)
+                self.performSegue(withIdentifier: "bootError", sender: self)
             
                 
             }

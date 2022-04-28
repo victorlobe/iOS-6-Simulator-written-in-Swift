@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>de_DE</string>
 	<key>CFBundleDisplayName</key>
-	<string>iOS 6 public</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NFCReaderUsageDescription</key>
@@ -30,47 +30,47 @@
 		<true/>
 	</dict>
 	<key>NSAppleMusicUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSCalendarsUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
-	<key>NSCameraUsageDescription - 2</key>
-	<string></string>
+	<string>-</string>
 	<key>NSContactsUsageDescription</key>
-	<string></string>
+	<string>-</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>-</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>-</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSHomeKitUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSLocationUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSMotionUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
-	<key>NSPhotoLibraryUsageDescription - 2</key>
-	<string></string>
+	<string>-</string>
 	<key>NSRemindersUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSSiriUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>NSVideoSubscriberAccountUsageDescription</key>
-	<string></string>
+	<string>-</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
@@ -81,9 +81,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
-	<key>UIMainStoryboardFile~ipad</key>
-	<string>iPad</string>
+	<string>Bridge</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -91,7 +89,9 @@
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -103,6 +103,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>kTCCServiceMediaLibrary</key>

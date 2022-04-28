@@ -67,7 +67,7 @@ class boot5ViewController: UIViewController {
     }
     
     
-    func timeToMoveOn() {
+    @objc func timeToMoveOn() {
         self.performSegue(withIdentifier: "boot5", sender: self)
     }
     
@@ -85,5 +85,3 @@ class boot5ViewController: UIViewController {
     }
     
 }
-
-

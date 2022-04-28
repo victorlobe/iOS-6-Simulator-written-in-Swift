@@ -1,0 +1,6 @@
+framework module Postal {
+  umbrella header "Postal-umbrella.h"
+
+  export *
+  module * { export * }
+}
