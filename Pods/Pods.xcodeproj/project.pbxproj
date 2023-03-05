@@ -109,7 +109,7 @@
 		1CF048CBC3C439A9F2F9990AE0F77CC5 /* Pods-iOS 6-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS 6-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DBA51FE0CA9B008C3D273F062E4A575 /* IMAPSession+Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+Search.swift"; path = "Postal/IMAPSession+Search.swift"; sourceTree = "<group>"; };
 		1F937C634B49F027DAD36ACE62A75776 /* Postal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Postal-dummy.m"; sourceTree = "<group>"; };
-		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		234A54CBF60B8DB6298A5AC0CA4F4069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		250707191248FF27F7BC2F28569038FE /* IMAPIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPIdentity.swift; path = Postal/IMAPIdentity.swift; sourceTree = "<group>"; };
 		289A4D5FF809E5EA38331292CCDD9607 /* MessageAttribute+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessageAttribute+Parsing.swift"; path = "Postal/MessageAttribute+Parsing.swift"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		32BE692D222D0230CFBB99A04FEA94A9 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
 		344D9CCC2B445D3C452B2520130E97DB /* MessageFlags+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessageFlags+Parsing.swift"; path = "Postal/MessageFlags+Parsing.swift"; sourceTree = "<group>"; };
 		3AAE0903ABDC4DB278CDF36B84636D1F /* Postal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Postal-Info.plist"; sourceTree = "<group>"; };
-		3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrientationTracker; path = OrientationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrientationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F035CBB111BE73A33A2495C53D79D99 /* MailPart+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MailPart+Parsing.swift"; path = "Postal/MailPart+Parsing.swift"; sourceTree = "<group>"; };
 		42B03F681638A3988F7348C884CF753C /* Postal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Postal.debug.xcconfig; sourceTree = "<group>"; };
 		43A3897AF078BE59B8BFC69CA3F1D05B /* FetchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchResult.swift; path = Postal/FetchResult.swift; sourceTree = "<group>"; };
@@ -137,10 +137,10 @@
 		5E348AC4D67AB9A63331380F5C602F2E /* OrientationTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrientationTracker.swift; path = OrientationTracker/Classes/OrientationTracker.swift; sourceTree = "<group>"; };
 		5E3A58A59BEA7235C116033DB0E67497 /* IMAPSession+Folder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+Folder.swift"; path = "Postal/IMAPSession+Folder.swift"; sourceTree = "<group>"; };
 		5F258521C7EFCF50469FAABD0AADAC59 /* IMAPNamespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPNamespace.swift; path = Postal/IMAPNamespace.swift; sourceTree = "<group>"; };
-		615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCam; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62764EA83EC6A6380A092A6A1BA1E9E7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		63C48FDC045016FBCA4808FD4DD7D43D /* IMAPSession+List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+List.swift"; path = "Postal/IMAPSession+List.swift"; sourceTree = "<group>"; };
-		6A4701A2D8D68404A37B897CCF29FD3E /* Postal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Postal; path = Postal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4701A2D8D68404A37B897CCF29FD3E /* Postal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Postal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B44D5983C7AEF2731C0E263FBB64687 /* MimeType+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MimeType+Parsing.swift"; path = "Postal/MimeType+Parsing.swift"; sourceTree = "<group>"; };
 		7C829C16AD6D958ACA75AF87CEDC2DF4 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		7CAA974316DA3CEE1606982E00A8C4F3 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		9B72B87F03867105731FF7F3B9FAD1BF /* OrientationTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrientationTracker.debug.xcconfig; sourceTree = "<group>"; };
 		9BB45E8C49C8BD478FAD731BD462730E /* Pods-iOS 6.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS 6.modulemap"; sourceTree = "<group>"; };
 		9C5F080BAF002AC04B82001A9BCCF0D6 /* Pods-iOS 6-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS 6-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1DB5462D07E103343C814992F07B567 /* Pods-iOS 6-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS 6-frameworks.sh"; sourceTree = "<group>"; };
 		A35D30D52A65450507811E6641426170 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
 		A3A620D85E6A6C16A17232902D3192C5 /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
@@ -269,11 +269,11 @@
 		2A4DACA001E21FF1D605AB0C470ED44C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker */,
+				3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker.framework */,
 				AED587440F61913D1CDCA6A64EB3D4B2 /* Pods-iOS 6 */,
-				6A4701A2D8D68404A37B897CCF29FD3E /* Postal */,
-				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
-				615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam */,
+				6A4701A2D8D68404A37B897CCF29FD3E /* Postal.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+				615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,7 +288,6 @@
 				7CAA974316DA3CEE1606982E00A8C4F3 /* SwiftyCamViewControllerDelegate.swift */,
 				C4683ECEBF2EE98501D660CB582A5777 /* Support Files */,
 			);
-			name = SwiftyCam;
 			path = SwiftyCam;
 			sourceTree = "<group>";
 		};
@@ -298,7 +297,6 @@
 				FECA8D4E3656DCB0A52FC9B79274D3EC /* Reachability.swift */,
 				68BC538F661CE8F35BA194BA07E1F33B /* Support Files */,
 			);
-			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
@@ -368,7 +366,6 @@
 				98F6ECA84B30C3524E59090FDBA91020 /* Util.swift */,
 				8D7099B4653250916A76EC5CFA8B3FAE /* Support Files */,
 			);
-			name = Postal;
 			path = Postal;
 			sourceTree = "<group>";
 		};
@@ -424,7 +421,6 @@
 				5E348AC4D67AB9A63331380F5C602F2E /* OrientationTracker.swift */,
 				1B91B4DF333E00B4B442DA2FBD9070FA /* Support Files */,
 			);
-			name = OrientationTracker;
 			path = OrientationTracker;
 			sourceTree = "<group>";
 		};
@@ -517,7 +513,7 @@
 			);
 			name = Postal;
 			productName = Postal;
-			productReference = 6A4701A2D8D68404A37B897CCF29FD3E /* Postal */;
+			productReference = 6A4701A2D8D68404A37B897CCF29FD3E /* Postal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
@@ -535,7 +531,7 @@
 			);
 			name = ReachabilitySwift;
 			productName = Reachability;
-			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		27A01C0569CDEBE581CC7D85FDA104F3 /* OrientationTracker */ = {
@@ -553,7 +549,7 @@
 			);
 			name = OrientationTracker;
 			productName = OrientationTracker;
-			productReference = 3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker */;
+			productReference = 3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F832DAC0F1356190CB5FF873B946DCB /* Pods-iOS 6 */ = {
@@ -593,7 +589,7 @@
 			);
 			name = SwiftyCam;
 			productName = SwiftyCam;
-			productReference = 615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam */;
+			productReference = 615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -602,8 +598,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -793,7 +789,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyCam;
@@ -891,7 +887,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyCam;
@@ -922,7 +918,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
 				PRODUCT_MODULE_NAME = Reachability;
@@ -954,7 +950,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OrientationTracker/OrientationTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
 				PRODUCT_MODULE_NAME = OrientationTracker;
@@ -1025,8 +1021,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1048,7 +1043,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
 				PRODUCT_MODULE_NAME = Reachability;
@@ -1079,7 +1074,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
 				PRODUCT_MODULE_NAME = Postal;
@@ -1111,7 +1106,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
 				PRODUCT_MODULE_NAME = Postal;
@@ -1176,7 +1171,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OrientationTracker/OrientationTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
 				PRODUCT_MODULE_NAME = OrientationTracker;

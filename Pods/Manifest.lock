@@ -6,7 +6,7 @@ PODS:
 
 DEPENDENCIES:
   - OrientationTracker
-  - Postal (from `https://github.com/snipsco/Postal.git`, branch `master`)
+  - Postal (from `https://github.com/fakerybakery/Postal.git`, branch `master`)
   - ReachabilitySwift
   - SwiftyCam
 
@@ -19,12 +19,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Postal:
     :branch: master
-    :git: https://github.com/snipsco/Postal.git
+    :git: https://github.com/fakerybakery/Postal.git
 
 CHECKOUT OPTIONS:
   Postal:
-    :commit: 1e107ef8d497432b24c2e105f87ec556beea0f20
-    :git: https://github.com/snipsco/Postal.git
+    :commit: 603b861c31d0af24d924d8c435c905a75c19ae96
+    :git: https://github.com/fakerybakery/Postal.git
 
 SPEC CHECKSUMS:
   OrientationTracker: 84799035ca1a3ac47fa4a7f9d4930e685b58a93f
@@ -32,6 +32,6 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SwiftyCam: 6e57914771d972fbe508e759dc9d0150a44a93fd
 
-PODFILE CHECKSUM: fe61b2ad10381ee619c1cc923d3e45ef387660a2
+PODFILE CHECKSUM: a2528a7e9c42261224e508f2043dc3d271077071
 
 COCOAPODS: 1.11.3

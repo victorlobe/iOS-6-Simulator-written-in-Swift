@@ -20,11 +20,21 @@ class mailViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        checkMails()
+        if iCloudUsernameL != "" && iCloudPasswordL != "" {
+            checkMails()
+        } else {
+            lastFetchedLabel.isHidden = true
+            loadingSpinner.isHidden = true
+            
+            loadMailsLabell.text = "Keine Mail Acoounts konfiguriert"
+            loadMailsLabell.isHidden = false
+        }
     }
     
     @IBAction func reloadMails(_ sender: Any) {
-        checkMails()
+        if iCloudUsernameL != "" && iCloudPasswordL != "" {
+            checkMails()
+        }
     }
     
     @objc func checkMails() {
@@ -32,7 +42,7 @@ class mailViewController: UIViewController, UITableViewDelegate, UITableViewData
         loadingSpinner.isHidden = false
         loadMailsLabell.isHidden = false
         emails.removeAll()
-        let postal = Postal(configuration: .icloud(login: iCloudUsername, password: iCloudPassword))
+        let postal = Postal(configuration: .icloud(login: iCloudUsernameL, password: iCloudPasswordL))
         postal.connect { result in
             switch result {
             case .success:

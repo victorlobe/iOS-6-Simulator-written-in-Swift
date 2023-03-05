@@ -13,6 +13,7 @@ import Reachability
 import MediaPlayer
 import Postal
 import AudioToolbox
+import StoreKit
 
 @available(iOS 13.5, *)
 class lockscreenViewController: UIViewController {
@@ -197,7 +198,11 @@ class lockscreenViewController: UIViewController {
         volumeSlider.setValue((sender as AnyObject).value, animated: false)
     }
     
+    
+    
     override func viewWillAppear(_ animated: Bool) {
+        
+        
         self.unlockSliderOut.setThumbImage(UIImage(named: "unlockthumb"), for: UIControlState.normal)
         
         do {
@@ -222,14 +227,17 @@ class lockscreenViewController: UIViewController {
         self.updateBatteryState()
         
         updateTimer()
-        getCurrentMetadata()
-        checkMails()
+        if iCloudUsernameL != "" && iCloudPasswordL != "" {
+              checkMails()
+        }
         dateTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
         
         mediaTimer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(getCurrentMetadata), userInfo: nil, repeats: true)
         
-        mailTimer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(checkMails), userInfo: nil, repeats: true)
-        
+        if iCloudUsernameL != "" && iCloudPasswordL != "" {
+            
+            mailTimer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(checkMails), userInfo: nil, repeats: true)
+        }
         
         batteryTimer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(switchBattery), userInfo: nil, repeats: true)
         
@@ -447,7 +455,7 @@ class lockscreenViewController: UIViewController {
     }
     
     @objc func checkMails() {
-            let postal = Postal(configuration: .icloud(login: iCloudUsername, password: iCloudPassword))
+            let postal = Postal(configuration: .icloud(login: iCloudUsernameL, password: iCloudPasswordL))
             postal.connect { result in
                 switch result {
                 case .success:
@@ -456,6 +464,7 @@ class lockscreenViewController: UIViewController {
                     print("[EMAIL_BACKGROUND_SERVICE]: Login failed: \(error)")
                 }
             }
+        
             
             postal.fetchLast("INBOX", last: 1, flags: [ .fullHeaders, .body ], onMessage: { email in
                 print("Found Mail!")

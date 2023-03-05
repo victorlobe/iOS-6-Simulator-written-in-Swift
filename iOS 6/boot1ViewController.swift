@@ -21,7 +21,11 @@ class boot1ViewController: UIViewController {
         if UserDefaults.standard.bool(forKey: "directBoot") == true {
             self.performSegue(withIdentifier: "startToLockscreen", sender: self)
         } else {
-            self.performSegue(withIdentifier: "startToBooter", sender: self)
+            if UserDefaults.standard.bool(forKey: "debugging") == true {
+                self.performSegue(withIdentifier: "boot1", sender: self)
+            } else {
+                self.performSegue(withIdentifier: "startToBooter", sender: self)
+            }
         }
     }
     

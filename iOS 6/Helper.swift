@@ -8,5 +8,5 @@
 
 import Foundation
 
-public var iCloudUsername = ""
-public var iCloudPassword = ""
+public var iCloudUsernameL = ""
+public var iCloudPasswordL = ""

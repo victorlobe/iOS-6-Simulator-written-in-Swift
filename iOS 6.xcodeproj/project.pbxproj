@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CB80A969A4E9B338C83B59F /* Pods_iOS_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054135A41A662C54425D2753 /* Pods_iOS_6.framework */; };
+		0464340B9176DD5D27F5E477 /* Pods_iOS_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410157006E9066F57B3AED00 /* Pods_iOS_6.framework */; };
 		57184B0A24527AD400D1E8DD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57184B0924527AD400D1E8DD /* Settings.bundle */; };
 		57184B0C24527AD800D1E8DD /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57184B0B24527AD700D1E8DD /* SettingsBundleHelper.swift */; };
 		572C1BD51F956A0F0094CF77 /* statusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C1BD41F956A0F0094CF77 /* statusBarViewController.swift */; };
@@ -145,8 +145,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		054135A41A662C54425D2753 /* Pods_iOS_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.release.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.release.xcconfig"; sourceTree = "<group>"; };
+		3AECB992EA1749E9E1CBE5B4 /* Pods-iOS 6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.debug.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.debug.xcconfig"; sourceTree = "<group>"; };
+		410157006E9066F57B3AED00 /* Pods_iOS_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5714154F1F93FE9C00C79D1F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		571415511F93FE9C00C79D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571415591F9400A800C79D1F /* keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = keyboard.storyboard; sourceTree = "<group>"; };
@@ -266,7 +266,7 @@
 		64F626C4267FF48400EFA757 /* Bridge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bridge.storyboard; sourceTree = "<group>"; };
 		64F626C6267FF49000EFA757 /* bridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgeViewController.swift; sourceTree = "<group>"; };
 		64FDDFE0281A15F900409106 /* icloudLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icloudLoginViewController.swift; sourceTree = "<group>"; };
-		ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.debug.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.debug.xcconfig"; sourceTree = "<group>"; };
+		8283E0F5F1C91349DB5DF78A /* Pods-iOS 6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS 6.release.xcconfig"; path = "Target Support Files/Pods-iOS 6/Pods-iOS 6.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,22 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5765E1C71F2CDA8600354EDA /* AudioToolbox.framework in Frameworks */,
-				1CB80A969A4E9B338C83B59F /* Pods_iOS_6.framework in Frameworks */,
+				0464340B9176DD5D27F5E477 /* Pods_iOS_6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18B046FCECA3F76419EB751D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */,
-				3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		5714154E1F93FE9C00C79D1F /* iOS 6 Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				575B5BC11F2CD8EC00F67605 /* AudioToolbox.framework */,
-				054135A41A662C54425D2753 /* Pods_iOS_6.framework */,
+				410157006E9066F57B3AED00 /* Pods_iOS_6.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -376,7 +367,7 @@
 				5714154E1F93FE9C00C79D1F /* iOS 6 Keyboard */,
 				57B38A061F2CD7AA0020531A /* Products */,
 				575B5BC01F2CD8EC00F67605 /* Frameworks */,
-				18B046FCECA3F76419EB751D /* Pods */,
+				B4793E233014B724430091AF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -474,6 +465,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		B4793E233014B724430091AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AECB992EA1749E9E1CBE5B4 /* Pods-iOS 6.debug.xcconfig */,
+				8283E0F5F1C91349DB5DF78A /* Pods-iOS 6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -481,19 +481,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57B38A301F2CD7AB0020531A /* Build configuration list for PBXNativeTarget "iOS 6" */;
 			buildPhases = (
-				6D567970808BE349CFF78045 /* [CP] Check Pods Manifest.lock */,
+				B1352F29C211B96B6D54B271 /* [CP] Check Pods Manifest.lock */,
 				57B38A011F2CD7AA0020531A /* Sources */,
 				57B38A021F2CD7AA0020531A /* Frameworks */,
 				57B38A031F2CD7AA0020531A /* Resources */,
 				57DF93301F44B86700576006 /* Embed Frameworks */,
 				571415581F93FE9C00C79D1F /* Embed App Extensions */,
-				F53FADE9DB2EA8FD136BE1DC /* [CP] Embed Pods Frameworks */,
+				39C921D524F5AE2BE1396D31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "iOS 6";
+			packageProductDependencies = (
+			);
 			productName = "iOS 6";
 			productReference = 57B38A051F2CD7AA0020531A /* iOS 6.app */;
 			productType = "com.apple.product-type.application";
@@ -504,6 +506,9 @@
 		57B389FD1F2CD7AA0020531A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Victor Lobe";
@@ -532,6 +537,8 @@
 				Base,
 			);
 			mainGroup = 57B389FC1F2CD7AA0020531A;
+			packageReferences = (
+			);
 			productRefGroup = 57B38A061F2CD7AA0020531A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,29 +605,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D567970808BE349CFF78045 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS 6-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F53FADE9DB2EA8FD136BE1DC /* [CP] Embed Pods Frameworks */ = {
+		39C921D524F5AE2BE1396D31 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -642,6 +627,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS 6/Pods-iOS 6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1352F29C211B96B6D54B271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS 6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -836,12 +843,13 @@
 		};
 		57B38A311F2CD7AB0020531A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECBFEE6426178F7C293ADA61 /* Pods-iOS 6.debug.xcconfig */;
+			baseConfigurationReference = 3AECB992EA1749E9E1CBE5B4 /* Pods-iOS 6.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -857,18 +865,20 @@
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6-public";
 				PRODUCT_NAME = "iOS 6";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		57B38A321F2CD7AB0020531A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E9BBD9C7722EEB3942B961E /* Pods-iOS 6.release.xcconfig */;
+			baseConfigurationReference = 8283E0F5F1C91349DB5DF78A /* Pods-iOS 6.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -884,6 +894,7 @@
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.iOS-6-public";
 				PRODUCT_NAME = "iOS 6";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

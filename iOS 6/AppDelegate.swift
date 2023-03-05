@@ -29,10 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         OrientationTracker.shared.startDeviceOrientationTracking()
         
         if UserDefaults.standard.string(forKey: "iCloudUsername") == nil {} else {
-            iCloudUsername = UserDefaults.standard.string(forKey: "iCloudUsername") ?? ""
+            iCloudUsernameL = UserDefaults.standard.string(forKey: "iCloudUsername") ?? ""
         }
         if UserDefaults.standard.string(forKey: "iCloudPassword") == nil {} else {
-            iCloudPassword = UserDefaults.standard.string(forKey: "iCloudPassword") ?? ""
+            iCloudPasswordL = UserDefaults.standard.string(forKey: "iCloudPassword") ?? ""
         }
         
         return true
