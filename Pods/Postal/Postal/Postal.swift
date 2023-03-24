@@ -41,7 +41,7 @@ open class Postal {
     /// - parameters
     ///     - configuration: The configuration of the new connection.
     public init(configuration: Configuration) {
-        let providerName = "\(configuration)".lowercased()
+        let providerName = "\(configuration.hostname)".lowercased()
         queue = OperationQueue()
         queue.name = "com.postal.\(providerName)"
         queue.qualityOfService = .utility

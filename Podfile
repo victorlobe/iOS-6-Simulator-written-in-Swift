@@ -10,6 +10,6 @@ target 'iOS 6' do
 	pod 'ReachabilitySwift'
 	pod "SwiftyCam"
 	pod 'OrientationTracker'
-	pod 'Postal', :git => 'https://github.com/fakerybakery/Postal.git', :branch => 'master'
+	pod 'Postal', :git => 'https://github.com/cgalindo/Postal.git', :branch => 'master'
 
 end

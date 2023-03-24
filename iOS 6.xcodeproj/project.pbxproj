@@ -850,7 +850,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";
@@ -879,7 +879,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";

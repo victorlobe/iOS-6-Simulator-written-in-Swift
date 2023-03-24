@@ -47,33 +47,34 @@ class mailViewController: UIViewController, UITableViewDelegate, UITableViewData
             switch result {
             case .success:
                 print("success")
+                
+                postal.fetchLast("INBOX", last: 90, flags: [ .fullHeaders, .body ], onMessage: { email in
+                    print("Mail found!")
+                        var mailBody = ""
+                        var sender = ""
+                        var receivedDate = "01.01.1970"
+                        if self.bodyText(body: email.body!) == nil {} else {
+                         mailBody = String(self.bodyText(body: email.body!)!)
+                        }
+                        if email.header?.from[0].displayName == "" {
+                            sender = email.header?.from[0].email as! String
+                        } else {
+                            sender = email.header?.from[0].displayName as! String
+                        }
+                 //   receivedDate = email.internalDate
+                        let mailArray = [sender, email.header!.subject, mailBody, receivedDate]
+                        self.emails.append(mailArray)
+                    self.mailListTableView.reloadData()
+                }, onComplete: {_ in
+                    self.lastFetchedLabel.isHidden = false
+                    self.loadingSpinner.isHidden = true
+                    self.loadMailsLabell.isHidden = true
+                })
             case .failure(let error):
                 print("error: \(error)")
             }
         }
-        
-        postal.fetchLast("INBOX", last: 90, flags: [ .fullHeaders, .body ], onMessage: { email in
-            print("Mail found!")
-                var mailBody = ""
-                var sender = ""
-                var receivedDate = "01.01.1970"
-                if self.bodyText(body: email.body!) == nil {} else {
-                 mailBody = String(self.bodyText(body: email.body!)!)
-                }
-                if email.header?.from[0].displayName == "" {
-                    sender = email.header?.from[0].email as! String
-                } else {
-                    sender = email.header?.from[0].displayName as! String
-                }
-         //   receivedDate = email.internalDate
-                let mailArray = [sender, email.header!.subject, mailBody, receivedDate]
-                self.emails.append(mailArray)
-            self.mailListTableView.reloadData()
-        }, onComplete: {_ in 
-            self.lastFetchedLabel.isHidden = false
-            self.loadingSpinner.isHidden = true
-            self.loadMailsLabell.isHidden = true
-        })
+
     }
     
     func bodyText(body: MailPart) -> String? {

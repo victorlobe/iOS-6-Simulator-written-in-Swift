@@ -460,63 +460,65 @@ class lockscreenViewController: UIViewController {
                 switch result {
                 case .success:
                     print("[EMAIL_BACKGROUND_SERVICE]: Login succeded!")
+                    
+                    postal.fetchLast("INBOX", last: 1, flags: [ .fullHeaders, .body ], onMessage: { email in
+                        print("Found Mail!")
+                        if "\(email.header?.from[0].email) \(email.header?.subject)" == UserDefaults.standard.string(forKey: "lastMail") {} else {
+                            self.pushHeadline.text = email.header?.from[0].displayName
+                            self.pushSubtext.text = email.header!.subject
+                            self.pushText.text = "\(self.bodyText(body: email.body!) ?? "Diese E-Mail kann nicht angezeigt werden")"
+                            if self.pushSubtext.text == "" {
+                                self.pushSubtext.text = "Kein Betreff"
+                            }
+                            if self.pushText.text == "" {
+                                self.pushText.text = "Diese E-Mail hat keinen Inhalt"
+                            }
+                            
+                            if self.pushHeadline.text == "" {
+                                self.pushHeadline.text = email.header?.from[0].email
+                            }
+                            self.pushView.isHidden = false
+                            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+                            if let asset = NSDataAsset(name:"new-mail"){
+                                do {
+                                    self.player = try AVAudioPlayer(data:asset.data, fileTypeHint:"caf")
+                                    self.player.play()
+                                } catch let error as NSError {
+                                    print(error.localizedDescription)
+                                }
+                            }
+                            
+                            if self.screenOffCurtain.isHidden == false {
+                                self.screenOn()
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                                    self.screenOffCurtain.isHidden = false
+                                    if #available(iOS 13.0, *) {
+                                        UIApplication.shared.statusBarStyle = .darkContent
+                                    } else {
+                                        // Fallback on earlier versions
+                                    }
+                                    self.setNeedsStatusBarAppearanceUpdate()
+                                }
+                            }
+                            
+                            UserDefaults.standard.set("\(email.header?.from[0].email) \(email.header?.subject)", forKey: "lastMail")
+                            self.entsperrenLabel.text = "Lesen"
+                            
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                                self.pushAppIcon.layer.removeAllAnimations()
+                                self.pushAppIcon.layer.opacity = 1
+                                self.entsperrenLabel.text = "Entsperren"
+                            }
+                        }
+                    }, onComplete: { error in
+                        print("[EMAIL_BACKGROUND_SERVICE]: Error fetching new messages: \(error)")})
                 case .failure(let error):
                     print("[EMAIL_BACKGROUND_SERVICE]: Login failed: \(error)")
                 }
             }
         
             
-            postal.fetchLast("INBOX", last: 1, flags: [ .fullHeaders, .body ], onMessage: { email in
-                print("Found Mail!")
-                if "\(email.header?.from[0].email) \(email.header?.subject)" == UserDefaults.standard.string(forKey: "lastMail") {} else {
-                    self.pushHeadline.text = email.header?.from[0].displayName
-                    self.pushSubtext.text = email.header!.subject
-                    self.pushText.text = "\(self.bodyText(body: email.body!) ?? "Diese E-Mail kann nicht angezeigt werden")"
-                    if self.pushSubtext.text == "" {
-                        self.pushSubtext.text = "Kein Betreff"
-                    }
-                    if self.pushText.text == "" {
-                        self.pushText.text = "Diese E-Mail hat keinen Inhalt"
-                    }
-                    
-                    if self.pushHeadline.text == "" {
-                        self.pushHeadline.text = email.header?.from[0].email
-                    }
-                    self.pushView.isHidden = false
-                    AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-                    if let asset = NSDataAsset(name:"new-mail"){
-                        do {
-                            self.player = try AVAudioPlayer(data:asset.data, fileTypeHint:"caf")
-                            self.player.play()
-                        } catch let error as NSError {
-                            print(error.localizedDescription)
-                        }
-                    }
-                    
-                    if self.screenOffCurtain.isHidden == false {
-                        self.screenOn()
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-                            self.screenOffCurtain.isHidden = false
-                            if #available(iOS 13.0, *) {
-                                UIApplication.shared.statusBarStyle = .darkContent
-                            } else {
-                                // Fallback on earlier versions
-                            }
-                            self.setNeedsStatusBarAppearanceUpdate()
-                        }
-                    }
-                    
-                    UserDefaults.standard.set("\(email.header?.from[0].email) \(email.header?.subject)", forKey: "lastMail")
-                    self.entsperrenLabel.text = "Lesen"
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-                        self.pushAppIcon.layer.removeAllAnimations()
-                        self.pushAppIcon.layer.opacity = 1
-                        self.entsperrenLabel.text = "Entsperren"
-                    }
-                }
-            }, onComplete: { error in
-                print("[EMAIL_BACKGROUND_SERVICE]: Error fetching new messages: \(error)")})
+
             
     }
     

@@ -89,7 +89,7 @@ final class IMAPSession {
     func connect(timeout: TimeInterval) throws {
         mailimap_set_timeout(imap, Int(timeout))
         
-        let voipEnabled = true
+        let voipEnabled = false
         switch configuration.connectionType {
         case .startTLS:
             try mailimap_socket_connect_voip(imap, configuration.hostname, configuration.port, voipEnabled.int32Value).toIMAPError?.check()
