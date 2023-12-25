@@ -306,12 +306,14 @@ class cameraViewController: UIViewController, AVCapturePhotoCaptureDelegate, CLL
     func switchToPhoto() {
         currentMode = 0
         modeSwitcherControl.setValue(0, animated: true)
+        cameraButtonInnerImage.image = UIImage(named: "PLCameraLargeShutterButtonPhoto_2only_-568h")
         
     }
     
     func switchToVideo() {
         currentMode = 1
         modeSwitcherControl.setValue(1, animated: true)
+        cameraButtonInnerImage.image = UIImage(named: "PLCameraButtonRecordOff")
     }
     
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {

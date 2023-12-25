@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yoM-xD-9qW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yoM-xD-9qW">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -104,19 +104,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StripedBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vkH-82-SjR">
-                                <rect key="frame" x="0.0" y="42" width="375" height="1539"/>
+                                <rect key="frame" x="0.0" y="-5" width="375" height="1620"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Status Bar, Blue copy" translatesAutoresizingMaskIntoConstraints="NO" id="lyv-f0-4I0">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inq-ch-xci">
-                                <rect key="frame" x="342" y="0.0" width="33" height="47"/>
+                                <rect key="frame" x="342" y="0.0" width="33" height="0.0"/>
                                 <connections>
                                     <segue destination="1G3-Ym-Tsd" kind="presentation" animates="NO" modalTransitionStyle="crossDissolve" id="AE5-Ye-zmc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0a-yF-Qwg">
-                                <rect key="frame" x="83" y="0.0" width="25" height="47"/>
+                                <rect key="frame" x="83" y="0.0" width="25" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="MBk-mv-Qvk"/>
                                 </constraints>
@@ -125,19 +125,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SE6-JR-aRH">
-                                <rect key="frame" x="135" y="0.0" width="105" height="47"/>
+                                <rect key="frame" x="135" y="0.0" width="105" height="0.0"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Signal Strength" translatesAutoresizingMaskIntoConstraints="NO" id="lEx-vw-wDf">
-                                <rect key="frame" x="4" y="0.0" width="29" height="47"/>
+                                <rect key="frame" x="4" y="0.0" width="29" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="29" id="EgK-L6-lna"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="blau.de" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aku-Om-v44">
-                                <rect key="frame" x="35" y="0.0" width="46" height="47"/>
+                                <rect key="frame" x="35" y="0.0" width="46" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="bzM-4C-JY4"/>
                                 </constraints>
@@ -146,13 +146,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="GDJ-zp-BYt">
-                                <rect key="frame" x="346" y="0.0" width="25" height="47"/>
+                                <rect key="frame" x="346" y="0.0" width="25" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="YBM-Cm-2gi"/>
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dB-Tv-5jt">
-                                <rect key="frame" x="0.0" y="47" width="375" height="1539"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1620"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingsImported" translatesAutoresizingMaskIntoConstraints="NO" id="7nM-kB-uXy">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1806"/>
@@ -512,7 +512,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="codeEnter:" destination="k6V-eA-NFa" eventType="editingDidEndOnExit" id="sYc-zP-16H"/>
                                 </connections>
@@ -2995,11 +2995,11 @@
                         <viewControllerLayoutGuide type="bottom" id="aMW-MK-P1h"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gv6-uI-BP1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9CH-5L-46m">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="721"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3155,7 +3155,7 @@
                                             <action selector="cameraButtonTouchDown:" destination="rkg-AT-69C" eventType="touchDragEnter" id="svq-KW-kAC"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PLCameraLargeShutterButtonPhoto_2only_-568h" translatesAutoresizingMaskIntoConstraints="NO" id="LEp-5c-Jth">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PLCameraLargeShutterButtonPhoto_2only_-568h" translatesAutoresizingMaskIntoConstraints="NO" id="LEp-5c-Jth">
                                         <rect key="frame" x="169" y="36" width="37" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -4793,12 +4793,12 @@
         <segue reference="ouB-it-ozW"/>
         <segue reference="jho-3O-MLv"/>
         <segue reference="PeZ-Kg-1OS"/>
-        <segue reference="oPf-cf-kiK"/>
+        <segue reference="N6Q-pR-69O"/>
         <segue reference="4dX-Gd-Pe0"/>
         <segue reference="Vk9-M2-Tnq"/>
         <segue reference="5zC-lj-Pe9"/>
-        <segue reference="0i0-fd-Rnt"/>
-        <segue reference="WBY-br-Q0M"/>
+        <segue reference="Vff-HY-lxV"/>
+        <segue reference="CKS-ix-TYI"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="42" height="20"/>
