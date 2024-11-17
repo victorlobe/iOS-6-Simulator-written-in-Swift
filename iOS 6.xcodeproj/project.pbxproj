@@ -104,6 +104,7 @@
 		57D8B4621F2E757200E97D7C /* shimmerButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8B4611F2E757200E97D7C /* shimmerButtonViewController.swift */; };
 		57DA0CB81F47AD9F001DECC4 /* bootErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DA0CB71F47AD9F001DECC4 /* bootErrorViewController.swift */; };
 		57DAD1E21F77EF5600144B15 /* lockscreenDeactivatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAD1E11F77EF5600144B15 /* lockscreenDeactivatedViewController.swift */; };
+		57DFE5532CEAA15700772548 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFE5522CEAA15700772548 /* Extensions.swift */; };
 		57E8DE2C24539EFD0056F2F3 /* mailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8DE2B24539EFD0056F2F3 /* mailViewController.swift */; };
 		57E8DE2E2453A29F0056F2F3 /* mailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8DE2D2453A29F0056F2F3 /* mailListTableViewCell.swift */; };
 		57E8DE302453BAE10056F2F3 /* new-mail.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57E8DE2F2453BAE10056F2F3 /* new-mail.caf */; };
@@ -251,6 +252,7 @@
 		57D8B4611F2E757200E97D7C /* shimmerButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shimmerButtonViewController.swift; sourceTree = "<group>"; };
 		57DA0CB71F47AD9F001DECC4 /* bootErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootErrorViewController.swift; sourceTree = "<group>"; };
 		57DAD1E11F77EF5600144B15 /* lockscreenDeactivatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lockscreenDeactivatedViewController.swift; sourceTree = "<group>"; };
+		57DFE5522CEAA15700772548 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		57E8DE2B24539EFD0056F2F3 /* mailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailViewController.swift; sourceTree = "<group>"; };
 		57E8DE2D2453A29F0056F2F3 /* mailListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailListTableViewCell.swift; sourceTree = "<group>"; };
 		57E8DE2F2453BAE10056F2F3 /* new-mail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "new-mail.caf"; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 				57B38A491F2CD80E0020531A /* LaunchScreen.storyboard */,
 				5741DF6E246A05E800C2D16D /* currentCallViewController.swift */,
 				57B38A081F2CD7AA0020531A /* AppDelegate.swift */,
+				57DFE5522CEAA15700772548 /* Extensions.swift */,
 				57404CD81F92E6D000A19719 /* LocationDelegate.swift */,
 				57F53CA92550A0CB00FE93BF /* Assets.xcassets */,
 				57404CD61F92E5FF00A19719 /* compassViewController.swift */,
@@ -718,6 +721,7 @@
 				57B38A641F2CD80E0020531A /* calculator.swift in Sources */,
 				57B38A6D1F2CD80E0020531A /* messagesViewController.swift in Sources */,
 				57FAC2761F479F6B00B1E254 /* reachability.swift in Sources */,
+				57DFE5532CEAA15700772548 /* Extensions.swift in Sources */,
 				57DAD1E21F77EF5600144B15 /* lockscreenDeactivatedViewController.swift in Sources */,
 				57948032243922A5007385A0 /* iOS6AlertView.m in Sources */,
 				57B38A6A1F2CD80E0020531A /* lockscreenViewController.swift in Sources */,
@@ -850,10 +854,11 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS 6";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -879,10 +884,11 @@
 				CODE_SIGN_ENTITLEMENTS = "iOS 6/iOS 6.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = F6ZD5PBKMC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "iOS 6/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS 6";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

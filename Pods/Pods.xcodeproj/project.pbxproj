@@ -7,91 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A2ACE6E5F621A0EE2259A8D4435229 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35D30D52A65450507811E6641426170 /* SwiftyCamViewController.swift */; };
-		0C98DE6C76ED75E3B7AD9D31F0E11BF6 /* Pods-iOS 6-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB248B9E50AAE1AB0DAA29E36247C3 /* Pods-iOS 6-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CDC03C2677E30CFAB7922B7459C0429 /* OrientationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B030287F8F129E640167790A0D23FB8 /* OrientationTracker-dummy.m */; };
-		0D8E716CA83D6C24E3877D7DCA3F5AE6 /* MimeFields+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1C2A042F5E17674C4910E7F1A882 /* MimeFields+Parsing.swift */; };
-		132A0A94A2163F14EF37A3675A5E203D /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA974316DA3CEE1606982E00A8C4F3 /* SwiftyCamViewControllerDelegate.swift */; };
-		1617737C00264612593DEDA3148C662B /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A008F22C56FC6C661A875920BB28750 /* PreviewView.swift */; };
-		17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78405DF68284C084E34A925A76B51EE /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */; };
-		28CFAB837AF5707DBA7F4EDA760B1AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */; };
-		304584D11B8B1A69A98B9A499EEFAB2D /* IMAPSession+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA51FE0CA9B008C3D273F062E4A575 /* IMAPSession+Search.swift */; };
-		3331B5B18602EF58F18406419967CB96 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3588702D32EE25A7F49CED390FA7F27 /* Configuration.swift */; };
-		3ACFBF65015FB62DDA1F9F3B112FB711 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A54CBF60B8DB6298A5AC0CA4F4069 /* UIKit.framework */; };
-		3AF7661778ED7380BB77CBE4BA35F4D3 /* MessageAttribute+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289A4D5FF809E5EA38331292CCDD9607 /* MessageAttribute+Parsing.swift */; };
-		3DD51BA3C9833AAE527D9AFD54FF1D67 /* ContentEncoding+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB8D849E434CFE0B607A9FC1F35A2F /* ContentEncoding+Parsing.swift */; };
-		413A42F4A4291192AE2F05E0EE426EC7 /* Postal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D746A10567318F011472505CDECF74E5 /* Postal.swift */; };
-		442239AA9F49F10240B022D7369D1C04 /* IMAPCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81543A25F03BAC48625EC97471A8D76E /* IMAPCapability.swift */; };
-		5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDA4D9ECD1D2B0A198017C117459C1 /* CoreTelephony.framework */; };
-		54BA24CA40C3ED35581868A5694C159B /* MailPart+Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94C059B4BBEB3B0AB4A4DF0E95BDC0 /* MailPart+Enumeration.swift */; };
-		60B026D321CECD707392C9C151892ECF /* IMAPSession+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C48FDC045016FBCA4808FD4DD7D43D /* IMAPSession+List.swift */; };
-		623AB7C218A41F47478E0DD4F97AFF86 /* IMAPSession+Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A58A59BEA7235C116033DB0E67497 /* IMAPSession+Folder.swift */; };
-		640E35B4359F108CDF16A9E6D70F99E5 /* PostalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A6166391FBEE00F236A3C1B4FC353F /* PostalError.swift */; };
-		66D97D294305D14E0CCB83C66734A2C8 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D40B82BD23FE45B8CA94303EB62856 /* SwiftyCamButton.swift */; };
-		6E0FB08A7B08D423692C05BDBCB32F6E /* IMAPIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250707191248FF27F7BC2F28569038FE /* IMAPIdentity.swift */; };
-		6F7858DECE8742D613391817DFA1B59D /* Extension+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A222647CFD35C5FAE1FC892012FBF1 /* Extension+Parsing.swift */; };
-		6FEA70E4B349684C8689DCAA7A0209AD /* Libetpan+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D23BB2EA07085BFE7CF5343097036 /* Libetpan+Util.swift */; };
-		706FC3B7C5910C5B59B670408EB603C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */; };
-		718E87C39ADDC7848C3FD053E865C29C /* CertificateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD3CB5238F678B6087E91746F2FD89 /* CertificateUtils.swift */; };
-		7280285A151803C49D263D7529B2910E /* OrientationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C13A749FC282B2AC17EBF892DBC0B44 /* OrientationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7592CD5BC260CCFEC923507DA1D5A6F8 /* IMAPSession+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55165312B6AF3030245B0C5271F4BCE /* IMAPSession+Move.swift */; };
-		79A07143DDD009880B24C636367D473F /* FetchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3897AF078BE59B8BFC69CA3F1D05B /* FetchResult.swift */; };
-		7A6769911903FDC4E60BC4A2E795168B /* Message+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953D18334C78E0BF4582DF72A1E4781 /* Message+Parsing.swift */; };
-		7B52C6F8CC3911E64D7C8417E0B9EDC0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2969B32CD3A7B08B9BE44FB4D5A4B4 /* Logger.swift */; };
-		82CB8428794913E63C20EFCB2260EEBF /* Postal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F937C634B49F027DAD36ACE62A75776 /* Postal-dummy.m */; };
-		82EE41732CE6EFA36525DA94BD278812 /* IMAPSession+Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8119385A197FBDAB40A4571436617649 /* IMAPSession+Fetch.swift */; };
-		843FF2E6F4F4E114DEEEB4632F13930B /* ContentDisposition+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F785DC16BD0D47FA9BD9FDBDAB4799 /* ContentDisposition+Parsing.swift */; };
-		8B993DBC237BE38AA3A3E413AA0D065E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */; };
-		8EA1876E38362796CBC1121D9D693252 /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9858935E14ED77FB1327EB82DA6461B /* SwiftyCam-dummy.m */; };
-		93A211E26852151AC5D09317CDAFE05A /* MimeType+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44D5983C7AEF2731C0E263FBB64687 /* MimeType+Parsing.swift */; };
-		93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162C2E8BF596B6C2748D93E2A4AA3D8D /* SystemConfiguration.framework */; };
-		960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C829C16AD6D958ACA75AF87CEDC2DF4 /* ReachabilitySwift-dummy.m */; };
-		A0801B6BDF961461DE28B0567B83ABF3 /* IMFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65158759B0CC001A73B3DC57D32229D /* IMFError.swift */; };
-		A418CC1D425AF1F23CC5AD1883012C62 /* IMAPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F06711C093F5D44801F1D9BACED6E15 /* IMAPError.swift */; };
-		A4ECB4328BC288DCE8A4E0BC43FB05B1 /* OrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E348AC4D67AB9A63331380F5C602F2E /* OrientationTracker.swift */; };
-		A52AAD6AE9CABCD87B22594504A256DE /* IMAPNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F258521C7EFCF50469FAABD0AADAC59 /* IMAPNamespace.swift */; };
-		AB2225E045A9C8B5878A601E972E8935 /* Postal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4E852AD30ACC417763C03206D0132B /* Postal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA8D4E3656DCB0A52FC9B79274D3EC /* Reachability.swift */; };
-		AD935356AEF551209D564366342DF04A /* IMAPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017CC7EC297BF69C17EA84D60CB8876A /* IMAPSession.swift */; };
-		BEF63F7ED1666BF8BA069734263DE524 /* Pods-iOS 6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D9D111D47372DA4656A794EFDD0CC /* Pods-iOS 6-dummy.m */; };
-		BF4E86EEEF21CFE7A4DCE9CAE890F0F5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62764EA83EC6A6380A092A6A1BA1E9E7 /* CoreMotion.framework */; };
-		C176DBE8F6F24E4518C12AC1A14E4EA3 /* MessageFlags+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D9CCC2B445D3C452B2520130E97DB /* MessageFlags+Parsing.swift */; };
-		CD5B3E76745C01E51E761C510B9367C2 /* IMAPFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D5AE550AB594D4DDC89B86CB10F4D /* IMAPFolder.swift */; };
-		CFD34C66C97375DC512386AC4EE7E79D /* MailData+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093DAF1121DE2412C80E3FC4067CDBE /* MailData+Decode.swift */; };
-		D2882552B09F06CC75BF65898CD8C412 /* MessageHeader+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB5A900DE59039DAD2915A28A1B2DD /* MessageHeader+Parsing.swift */; };
-		D7486F29A0281BF3895691642F0B4253 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1500A9E19D28D97866F17519C8645 /* Orientation.swift */; };
-		D8EA1012D77FE58AF9D7AFA778D94D77 /* Address+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C399915E14FC3CA1F5972D922AB01 /* Address+Parsing.swift */; };
-		DD782A484E231822DFEC84BDB68BB2C5 /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A620D85E6A6C16A17232902D3192C5 /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF92821B1DE4D41B5EDA3B3247B21603 /* MailPart+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F035CBB111BE73A33A2495C53D79D99 /* MailPart+Parsing.swift */; };
-		EF10BA5EC13334B7C75239D4262CE5C4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6ECA84B30C3524E59090FDBA91020 /* Util.swift */; };
-		F05378C7FBCE35A654AFFB86B8F07C25 /* Logger+IMAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F24D77A859E7D99C7F77502505918 /* Logger+IMAP.swift */; };
-		F1CCCAB7AD3E478F090F6099C3EE5436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */; };
+		05CF2CA426F972E02359D26642AE182F /* MailPart+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F035CBB111BE73A33A2495C53D79D99 /* MailPart+Parsing.swift */; };
+		063A335BEA368012C2ABF0D805855C59 /* IMAPSession+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA51FE0CA9B008C3D273F062E4A575 /* IMAPSession+Search.swift */; };
+		07F4C38EF3541E818252DA70FA3518A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */; };
+		089818A8452865BC367BF93B13F81ECF /* Postal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D746A10567318F011472505CDECF74E5 /* Postal.swift */; };
+		098C20866B62C2E49D848EDD787CDFD5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6ECA84B30C3524E59090FDBA91020 /* Util.swift */; };
+		0C6FC2A740D3EC090F3017D82D6028C6 /* IMAPSession+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C48FDC045016FBCA4808FD4DD7D43D /* IMAPSession+List.swift */; };
+		0DF8A3C802B8AF021C7C2E3FC4C14367 /* OrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E348AC4D67AB9A63331380F5C602F2E /* OrientationTracker.swift */; };
+		22D8D7932D3DF98E08A7E4B57CAE23BF /* MailData+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093DAF1121DE2412C80E3FC4067CDBE /* MailData+Decode.swift */; };
+		31CEA9CD211DCAE26371715EA585A342 /* MailPart+Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94C059B4BBEB3B0AB4A4DF0E95BDC0 /* MailPart+Enumeration.swift */; };
+		35C01C8CD6A41FC33367138BEB127AAA /* Postal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4E852AD30ACC417763C03206D0132B /* Postal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43851ED9AE6F51A82FCEEE9A371D85C4 /* IMAPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F06711C093F5D44801F1D9BACED6E15 /* IMAPError.swift */; };
+		4877217B8D576A54036F56E55C5AEE57 /* IMFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65158759B0CC001A73B3DC57D32229D /* IMFError.swift */; };
+		48AE8BEB83F03166EEA216CD02155296 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D40B82BD23FE45B8CA94303EB62856 /* SwiftyCamButton.swift */; };
+		511A841C9F2B9988B92A96094B1D117E /* IMAPFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D5AE550AB594D4DDC89B86CB10F4D /* IMAPFolder.swift */; };
+		516F1EBA9A8C73A4AD238FAE04FB8972 /* IMAPCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81543A25F03BAC48625EC97471A8D76E /* IMAPCapability.swift */; };
+		54676011EF7458123FCA988010DD136D /* Libetpan+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D23BB2EA07085BFE7CF5343097036 /* Libetpan+Util.swift */; };
+		594F9006F1B164B24987A09A1E9D2CD2 /* OrientationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C13A749FC282B2AC17EBF892DBC0B44 /* OrientationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BBDCD75F459FED18C100C526966A1EE /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A008F22C56FC6C661A875920BB28750 /* PreviewView.swift */; };
+		66C0A20672D82829EFBC3EDF7935C59C /* FetchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3897AF078BE59B8BFC69CA3F1D05B /* FetchResult.swift */; };
+		6733EC2235F528011F6440CB771F5B86 /* IMAPSession+Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8119385A197FBDAB40A4571436617649 /* IMAPSession+Fetch.swift */; };
+		6A26649C821AA62B576E46119F73EF8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */; };
+		6A6D20152C2B2D4978E8BD4158EDABD0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2969B32CD3A7B08B9BE44FB4D5A4B4 /* Logger.swift */; };
+		6B74E9CE700D60517680F499A60AB7C6 /* MimeFields+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1C2A042F5E17674C4910E7F1A882 /* MimeFields+Parsing.swift */; };
+		6E8FE70266C21B1588C3E3745AA25343 /* CertificateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FD3CB5238F678B6087E91746F2FD89 /* CertificateUtils.swift */; };
+		78404E1E4459B98A42689BC401D81B86 /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A620D85E6A6C16A17232902D3192C5 /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9FF02B69F4B83AF659002D023EF2F7 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35D30D52A65450507811E6641426170 /* SwiftyCamViewController.swift */; };
+		8161796AF25E1C8F114FEBC69B0A0811 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3588702D32EE25A7F49CED390FA7F27 /* Configuration.swift */; };
+		84E0BC66AE906DADF949ECE1F1011FB0 /* IMAPSession+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55165312B6AF3030245B0C5271F4BCE /* IMAPSession+Move.swift */; };
+		8592F6C896351BF9ECC70EF4DCBF6705 /* ContentDisposition+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F785DC16BD0D47FA9BD9FDBDAB4799 /* ContentDisposition+Parsing.swift */; };
+		86368E5D270D2DFE1B07B902FCFCDA17 /* Postal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F937C634B49F027DAD36ACE62A75776 /* Postal-dummy.m */; };
+		8A788E8AB8D9CBB6F77F825D94367465 /* IMAPIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250707191248FF27F7BC2F28569038FE /* IMAPIdentity.swift */; };
+		8C049D8A6968B50E6053DB6202FE5629 /* PostalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A6166391FBEE00F236A3C1B4FC353F /* PostalError.swift */; };
+		93F82D1208719CA2F911020DFCC9A214 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF8B2F5D80734D30CCCB2F29A2F29A /* SystemConfiguration.framework */; };
+		94786BCA0DD50922A4F543587C689C6A /* MimeType+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44D5983C7AEF2731C0E263FBB64687 /* MimeType+Parsing.swift */; };
+		948C6AD4FB481F85713FB432D0CB03F6 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C829C16AD6D958ACA75AF87CEDC2DF4 /* ReachabilitySwift-dummy.m */; };
+		95EA0AFAFA52AC872BC60D14B80BBF64 /* Extension+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A222647CFD35C5FAE1FC892012FBF1 /* Extension+Parsing.swift */; };
+		987694E826163654AD0F694A425B053B /* MessageAttribute+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289A4D5FF809E5EA38331292CCDD9607 /* MessageAttribute+Parsing.swift */; };
+		9C036302631FB2C8964B52D90AED395F /* Pods-iOS 6-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB248B9E50AAE1AB0DAA29E36247C3 /* Pods-iOS 6-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A162B6C6DC7CC81F4D018C6B16783E0A /* Logger+IMAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F24D77A859E7D99C7F77502505918 /* Logger+IMAP.swift */; };
+		A2ABA75E15FABE7736F6DF05B8B7542E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFB6E4B818646CEE47F0BEAF7EDDA6 /* UIKit.framework */; };
+		A583B4213AE3F67E2341C8AEBBE3D19E /* MessageHeader+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB5A900DE59039DAD2915A28A1B2DD /* MessageHeader+Parsing.swift */; };
+		A831FBF88293CD892BF147D8D9216F8F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FA514957615ED9913211C4950225B7 /* CoreMotion.framework */; };
+		A8FD7A2AEC7DEB67950879F56B4BCAE1 /* IMAPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017CC7EC297BF69C17EA84D60CB8876A /* IMAPSession.swift */; };
+		B2A5C394C4E08364ED5369B730F45632 /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9858935E14ED77FB1327EB82DA6461B /* SwiftyCam-dummy.m */; };
+		B75E02DE24AE1ED4DC0FBC3657B6123F /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78405DF68284C084E34A925A76B51EE /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BACFD9D01A88E10714C7CD3C662D2FF2 /* OrientationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B030287F8F129E640167790A0D23FB8 /* OrientationTracker-dummy.m */; };
+		BF192F8120420824EB2686C506D387F4 /* IMAPSession+Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3A58A59BEA7235C116033DB0E67497 /* IMAPSession+Folder.swift */; };
+		C009828DA99C73E82B0357C61062D915 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA8D4E3656DCB0A52FC9B79274D3EC /* Reachability.swift */; };
+		C0992606B3769F2ACD81AEA3022B27D9 /* Message+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953D18334C78E0BF4582DF72A1E4781 /* Message+Parsing.swift */; };
+		C84859B6588024BC4E9D90F8F170C8DA /* MessageFlags+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D9CCC2B445D3C452B2520130E97DB /* MessageFlags+Parsing.swift */; };
+		DE4158E2D9050CB6CE4F3D98A6230545 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA974316DA3CEE1606982E00A8C4F3 /* SwiftyCamViewControllerDelegate.swift */; };
+		E484F5917F11E15B6EBEAD86781074C6 /* Address+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C399915E14FC3CA1F5972D922AB01 /* Address+Parsing.swift */; };
+		E761715338F171CB952174B68E6124EB /* ContentEncoding+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB8D849E434CFE0B607A9FC1F35A2F /* ContentEncoding+Parsing.swift */; };
+		E89C51E66194DEE8D53C28FF011F9593 /* IMAPNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F258521C7EFCF50469FAABD0AADAC59 /* IMAPNamespace.swift */; };
+		ECA4A172EC4B175D14B13D6A60B0DA70 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD204BD46F1AF138EF9325AD19ABD31 /* CoreTelephony.framework */; };
+		EE34D37FCDCDADFA76D31A11E7AE37BC /* Pods-iOS 6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D9D111D47372DA4656A794EFDD0CC /* Pods-iOS 6-dummy.m */; };
+		F300D3D2A1BF39473DE153AC81EF0A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */; };
+		F502E1CB880C1ED8785C9C59F25D5EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */; };
+		F5C76F0861E14D92700C09AA06C1B826 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1500A9E19D28D97866F17519C8645 /* Orientation.swift */; };
+		FD60451CC76ADBFBDA7947B58D73D525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13B1F497F8AB1F86497CEBF4A950B6B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64D8AA920E37251A430220E5E4088BDA;
-			remoteInfo = SwiftyCam;
-		};
-		279107806B180CC831C3F26FE08D564C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 014CE582943DE44B473C7E70A5897BE2;
-			remoteInfo = Postal;
-		};
-		46C20D8A7D55EF93FEA59B0ED7C373D3 /* PBXContainerItemProxy */ = {
+		695AD318DC358BD1E9572572A44D0086 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 27A01C0569CDEBE581CC7D85FDA104F3;
 			remoteInfo = OrientationTracker;
 		};
-		63F6BCAB15C3A6AE62D73A59906A73EA /* PBXContainerItemProxy */ = {
+		8255054572E019CB2C2F23EDE82E584E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D8AA920E37251A430220E5E4088BDA;
+			remoteInfo = SwiftyCam;
+		};
+		A65296675CDA96DE37F0E36C3E2E637D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014CE582943DE44B473C7E70A5897BE2;
+			remoteInfo = Postal;
+		};
+		F600BFE381E0EE0BB7D31DCC03A3EBBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -103,14 +103,14 @@
 /* Begin PBXFileReference section */
 		017CC7EC297BF69C17EA84D60CB8876A /* IMAPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPSession.swift; path = Postal/IMAPSession.swift; sourceTree = "<group>"; };
 		0B030287F8F129E640167790A0D23FB8 /* OrientationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrientationTracker-dummy.m"; sourceTree = "<group>"; };
-		162C2E8BF596B6C2748D93E2A4AA3D8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		173D5AE550AB594D4DDC89B86CB10F4D /* IMAPFolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPFolder.swift; path = Postal/IMAPFolder.swift; sourceTree = "<group>"; };
 		18B1500A9E19D28D97866F17519C8645 /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Source/Orientation.swift; sourceTree = "<group>"; };
 		1CF048CBC3C439A9F2F9990AE0F77CC5 /* Pods-iOS 6-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS 6-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DBA51FE0CA9B008C3D273F062E4A575 /* IMAPSession+Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+Search.swift"; path = "Postal/IMAPSession+Search.swift"; sourceTree = "<group>"; };
 		1F937C634B49F027DAD36ACE62A75776 /* Postal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Postal-dummy.m"; sourceTree = "<group>"; };
 		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		234A54CBF60B8DB6298A5AC0CA4F4069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		24AFB6E4B818646CEE47F0BEAF7EDDA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		250707191248FF27F7BC2F28569038FE /* IMAPIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPIdentity.swift; path = Postal/IMAPIdentity.swift; sourceTree = "<group>"; };
 		289A4D5FF809E5EA38331292CCDD9607 /* MessageAttribute+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessageAttribute+Parsing.swift"; path = "Postal/MessageAttribute+Parsing.swift"; sourceTree = "<group>"; };
 		2944103154C8A676D98721A5D0D04611 /* SwiftyCam-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyCam-Info.plist"; sourceTree = "<group>"; };
@@ -125,11 +125,9 @@
 		43A3897AF078BE59B8BFC69CA3F1D05B /* FetchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchResult.swift; path = Postal/FetchResult.swift; sourceTree = "<group>"; };
 		45304EDFE9EB352F79AB2F48BF2204E2 /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
 		459AAA4A8948C59956150910BAF51835 /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
-		46BDA4D9ECD1D2B0A198017C117459C1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		4A008F22C56FC6C661A875920BB28750 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
 		4C13A749FC282B2AC17EBF892DBC0B44 /* OrientationTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-umbrella.h"; sourceTree = "<group>"; };
 		4C2D9D111D47372DA4656A794EFDD0CC /* Pods-iOS 6-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS 6-dummy.m"; sourceTree = "<group>"; };
-		51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5500C26E78DFF2E14817C85A7299A69D /* Pods-iOS 6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS 6.debug.xcconfig"; sourceTree = "<group>"; };
 		5A9FCECFD9753BE0B4A19024292E454B /* SwiftyCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.debug.xcconfig; sourceTree = "<group>"; };
 		5CEEF162340FE15AB99A787DFC63FB0F /* Postal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Postal-prefix.pch"; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 		5E3A58A59BEA7235C116033DB0E67497 /* IMAPSession+Folder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+Folder.swift"; path = "Postal/IMAPSession+Folder.swift"; sourceTree = "<group>"; };
 		5F258521C7EFCF50469FAABD0AADAC59 /* IMAPNamespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMAPNamespace.swift; path = Postal/IMAPNamespace.swift; sourceTree = "<group>"; };
 		615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62764EA83EC6A6380A092A6A1BA1E9E7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		63C48FDC045016FBCA4808FD4DD7D43D /* IMAPSession+List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMAPSession+List.swift"; path = "Postal/IMAPSession+List.swift"; sourceTree = "<group>"; };
 		6A4701A2D8D68404A37B897CCF29FD3E /* Postal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Postal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B44D5983C7AEF2731C0E263FBB64687 /* MimeType+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MimeType+Parsing.swift"; path = "Postal/MimeType+Parsing.swift"; sourceTree = "<group>"; };
@@ -164,10 +161,12 @@
 		A65158759B0CC001A73B3DC57D32229D /* IMFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMFError.swift; path = Postal/IMFError.swift; sourceTree = "<group>"; };
 		A72436EB3E24BD450840B4BAD325EF2B /* OrientationTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrientationTracker.release.xcconfig; sourceTree = "<group>"; };
 		ADCB5A900DE59039DAD2915A28A1B2DD /* MessageHeader+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MessageHeader+Parsing.swift"; path = "Postal/MessageHeader+Parsing.swift"; sourceTree = "<group>"; };
-		AED587440F61913D1CDCA6A64EB3D4B2 /* Pods-iOS 6 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS 6"; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED587440F61913D1CDCA6A64EB3D4B2 /* Pods_iOS_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FA514957615ED9913211C4950225B7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		B5FD3CB5238F678B6087E91746F2FD89 /* CertificateUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CertificateUtils.swift; path = Postal/CertificateUtils.swift; sourceTree = "<group>"; };
 		BA2969B32CD3A7B08B9BE44FB4D5A4B4 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Postal/Logger.swift; sourceTree = "<group>"; };
 		BBFA0C1749483D8D3953A816200746A1 /* Postal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Postal.modulemap; sourceTree = "<group>"; };
+		BFEF8B2F5D80734D30CCCB2F29A2F29A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		C3750AD98408041CF2660837BCE56AA1 /* Pods-iOS 6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS 6.release.xcconfig"; sourceTree = "<group>"; };
 		C414EFA733714EE72C00256B2926315F /* OrientationTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-prefix.pch"; sourceTree = "<group>"; };
 		C8AFBC9680C465F9A41AD0A8FD9FCE87 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
@@ -182,6 +181,7 @@
 		D9858935E14ED77FB1327EB82DA6461B /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
 		E093DAF1121DE2412C80E3FC4067CDBE /* MailData+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MailData+Decode.swift"; path = "Postal/MailData+Decode.swift"; sourceTree = "<group>"; };
 		EA978231622AE1ED2387A76221FFE322 /* Pods-iOS 6-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS 6-Info.plist"; sourceTree = "<group>"; };
+		EAD204BD46F1AF138EF9325AD19ABD31 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		ECBC1C2A042F5E17674C4910E7F1A882 /* MimeFields+Parsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MimeFields+Parsing.swift"; path = "Postal/MimeFields+Parsing.swift"; sourceTree = "<group>"; };
 		F141F1EE9056F02576FBCC6DF2785548 /* OrientationTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OrientationTracker-Info.plist"; sourceTree = "<group>"; };
 		F3588702D32EE25A7F49CED390FA7F27 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Postal/Configuration.swift; sourceTree = "<group>"; };
@@ -193,47 +193,47 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04FDF1301D3D9A650B0971E4CD34D1A1 /* Frameworks */ = {
+		A4E477360674E48410FD666FCB842AAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706FC3B7C5910C5B59B670408EB603C5 /* Foundation.framework in Frameworks */,
+				ECA4A172EC4B175D14B13D6A60B0DA70 /* CoreTelephony.framework in Frameworks */,
+				F300D3D2A1BF39473DE153AC81EF0A6B /* Foundation.framework in Frameworks */,
+				93F82D1208719CA2F911020DFCC9A214 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */ = {
+		AD5BF10152FE3FFB0B01148596F25CC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */,
-				210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */,
-				93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */,
+				07F4C38EF3541E818252DA70FA3518A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		577263CDB8FC791B0BCBFF6526EE8B7A /* Frameworks */ = {
+		B020F4E2F97EB0A71294F6DF77E2997F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CFAB837AF5707DBA7F4EDA760B1AC3 /* Foundation.framework in Frameworks */,
+				6A26649C821AA62B576E46119F73EF8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBAFF10416C98C91138126DCA2369696 /* Frameworks */ = {
+		C68FDB4B6A189C9EA1A3302B21F5067B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4E86EEEF21CFE7A4DCE9CAE890F0F5 /* CoreMotion.framework in Frameworks */,
-				F1CCCAB7AD3E478F090F6099C3EE5436 /* Foundation.framework in Frameworks */,
-				3ACFBF65015FB62DDA1F9F3B112FB711 /* UIKit.framework in Frameworks */,
+				A831FBF88293CD892BF147D8D9216F8F /* CoreMotion.framework in Frameworks */,
+				F502E1CB880C1ED8785C9C59F25D5EDE /* Foundation.framework in Frameworks */,
+				A2ABA75E15FABE7736F6DF05B8B7542E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F813E14871C7061D80E1114F5B0EE7C8 /* Frameworks */ = {
+		F033BB97F08CB0965029C0A2100E0468 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B993DBC237BE38AA3A3E413AA0D065E /* Foundation.framework in Frameworks */,
+				FD60451CC76ADBFBDA7947B58D73D525 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				3CA3D8353CAAB625AB5A26A88F9AFD5C /* OrientationTracker.framework */,
-				AED587440F61913D1CDCA6A64EB3D4B2 /* Pods-iOS 6 */,
+				AED587440F61913D1CDCA6A64EB3D4B2 /* Pods_iOS_6.framework */,
 				6A4701A2D8D68404A37B897CCF29FD3E /* Postal.framework */,
 				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
 				615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */,
@@ -313,18 +313,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReachabilitySwift";
-			sourceTree = "<group>";
-		};
-		89F996D7709CD9D2D456EAA9F5F8D991 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				62764EA83EC6A6380A092A6A1BA1E9E7 /* CoreMotion.framework */,
-				46BDA4D9ECD1D2B0A198017C117459C1 /* CoreTelephony.framework */,
-				51BB9BDB83FBB0DBAFE49E8F1087A91C /* Foundation.framework */,
-				162C2E8BF596B6C2748D93E2A4AA3D8D /* SystemConfiguration.framework */,
-				234A54CBF60B8DB6298A5AC0CA4F4069 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		8A11EE26BA31CFB051256D94911A9364 /* Postal */ = {
@@ -395,7 +383,7 @@
 		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89F996D7709CD9D2D456EAA9F5F8D991 /* iOS */,
+				FE5B3BFE0A68348278B20F274A254EDD /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -452,46 +440,58 @@
 			path = "Target Support Files/Pods-iOS 6";
 			sourceTree = "<group>";
 		};
+		FE5B3BFE0A68348278B20F274A254EDD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA514957615ED9913211C4950225B7 /* CoreMotion.framework */,
+				EAD204BD46F1AF138EF9325AD19ABD31 /* CoreTelephony.framework */,
+				143914B29C419F07FF1CB1D7D0937CC6 /* Foundation.framework */,
+				BFEF8B2F5D80734D30CCCB2F29A2F29A /* SystemConfiguration.framework */,
+				24AFB6E4B818646CEE47F0BEAF7EDDA6 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53F4A2976AC978B074F4E0F6E8CBA065 /* Headers */ = {
+		012262D75C2007C068BBCD9D4BAB00A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C98DE6C76ED75E3B7AD9D31F0E11BF6 /* Pods-iOS 6-umbrella.h in Headers */,
+				35C01C8CD6A41FC33367138BEB127AAA /* Postal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92FB78BB7E879E935E3F152C80E85C3D /* Headers */ = {
+		1C678229E5C2BA45B13F3AE043E102E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2225E045A9C8B5878A601E972E8935 /* Postal-umbrella.h in Headers */,
+				B75E02DE24AE1ED4DC0FBC3657B6123F /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */ = {
+		64E380D5EE61966AF5B8114270D1D4F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */,
+				78404E1E4459B98A42689BC401D81B86 /* SwiftyCam-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8FB651ED151C7E4FF17D60E1CFE3670 /* Headers */ = {
+		99DAA391CBFC6564EC8AB61719772782 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD782A484E231822DFEC84BDB68BB2C5 /* SwiftyCam-umbrella.h in Headers */,
+				594F9006F1B164B24987A09A1E9D2CD2 /* OrientationTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC7F4B498B88C80B26D93553CA7D641B /* Headers */ = {
+		E1D388BAADE4CBD04BF1E6277AAAE648 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7280285A151803C49D263D7529B2910E /* OrientationTracker-umbrella.h in Headers */,
+				9C036302631FB2C8964B52D90AED395F /* Pods-iOS 6-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,12 +500,12 @@
 /* Begin PBXNativeTarget section */
 		014CE582943DE44B473C7E70A5897BE2 /* Postal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D98E1F0146BCBCCF8FDD1BAAB44EA249 /* Build configuration list for PBXNativeTarget "Postal" */;
+			buildConfigurationList = 963295D4F093A6AEAE17403A22254F4B /* Build configuration list for PBXNativeTarget "Postal" */;
 			buildPhases = (
-				92FB78BB7E879E935E3F152C80E85C3D /* Headers */,
-				CE3C0B6587873772C87A630C47519830 /* Sources */,
-				577263CDB8FC791B0BCBFF6526EE8B7A /* Frameworks */,
-				07418AD82F6E9576FEACC8FAAF9386F1 /* Resources */,
+				012262D75C2007C068BBCD9D4BAB00A5 /* Headers */,
+				4C95BB0CC088049D1EBBF96BDEFE4669 /* Sources */,
+				AD5BF10152FE3FFB0B01148596F25CC7 /* Frameworks */,
+				B156FCD3AFE3792C4DC059A481781B0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -518,12 +518,12 @@
 		};
 		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildConfigurationList = 9AA8FFC0EA23C8D8025B6BC62C55833F /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
-				A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */,
-				000885395D0D686A060DD76E35D874C2 /* Sources */,
-				1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */,
-				332B7A37F1A79B4B578E4145341A0E1C /* Resources */,
+				1C678229E5C2BA45B13F3AE043E102E8 /* Headers */,
+				5DD54873E264A4125A3B86AADFDDBCFA /* Sources */,
+				A4E477360674E48410FD666FCB842AAE /* Frameworks */,
+				1A0A0D5BA8C207F5ADB7C483BC9D8D5D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -536,12 +536,12 @@
 		};
 		27A01C0569CDEBE581CC7D85FDA104F3 /* OrientationTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF632A0898786FCD82CD848F1A63F80 /* Build configuration list for PBXNativeTarget "OrientationTracker" */;
+			buildConfigurationList = 875101615F04D097D765658FB8208B26 /* Build configuration list for PBXNativeTarget "OrientationTracker" */;
 			buildPhases = (
-				BC7F4B498B88C80B26D93553CA7D641B /* Headers */,
-				7C0C7EEABDC8B0CDBA0D661CCC3E95F8 /* Sources */,
-				DBAFF10416C98C91138126DCA2369696 /* Frameworks */,
-				6C5E9D977E8BBB0B4DBD0629680F29F8 /* Resources */,
+				99DAA391CBFC6564EC8AB61719772782 /* Headers */,
+				A48672FD3A09AB3638FDCC34B3B219EC /* Sources */,
+				C68FDB4B6A189C9EA1A3302B21F5067B /* Frameworks */,
+				FD6AACC5E2BA00C3CC93E6CF229A7E50 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -554,34 +554,34 @@
 		};
 		5F832DAC0F1356190CB5FF873B946DCB /* Pods-iOS 6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB88F5E3FB4D82BC4B0F01A324658EEC /* Build configuration list for PBXNativeTarget "Pods-iOS 6" */;
+			buildConfigurationList = B95E4C4F67691AE4F9FCE98CC7C76EB3 /* Build configuration list for PBXNativeTarget "Pods-iOS 6" */;
 			buildPhases = (
-				53F4A2976AC978B074F4E0F6E8CBA065 /* Headers */,
-				F9289EB6FAB81419A6D1F8B2D10A01F3 /* Sources */,
-				04FDF1301D3D9A650B0971E4CD34D1A1 /* Frameworks */,
-				AE845AAEA4E486FBE57E789895060C13 /* Resources */,
+				E1D388BAADE4CBD04BF1E6277AAAE648 /* Headers */,
+				339F60019805DAE2520A37D63B8B55BF /* Sources */,
+				F033BB97F08CB0965029C0A2100E0468 /* Frameworks */,
+				2D8515860C41C0991555B41F4F7D3476 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF38095B02C20703A81A3089DA25CE0C /* PBXTargetDependency */,
-				41DAC1DFAE05C1D5D9C9F6965F9DC5D9 /* PBXTargetDependency */,
-				4BB35E4C241F8E52224217F86EB2C2F4 /* PBXTargetDependency */,
-				0FB899B2370C9580DDEC1F8BDFB198F2 /* PBXTargetDependency */,
+				322262610BE3BAE15F7BB9FCF76BA226 /* PBXTargetDependency */,
+				FFEF79BB99E513DA98864A8F086102C5 /* PBXTargetDependency */,
+				B9D034FED07682E45715A2C03980CCB6 /* PBXTargetDependency */,
+				114B2CCD29A0A95C7DB8E83035435B84 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOS 6";
 			productName = Pods_iOS_6;
-			productReference = AED587440F61913D1CDCA6A64EB3D4B2 /* Pods-iOS 6 */;
+			productReference = AED587440F61913D1CDCA6A64EB3D4B2 /* Pods_iOS_6.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BF34986C6CDFBE8F9F4CB00BF61CEC5 /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildConfigurationList = E46957267045F057E514C9BF63BDC68B /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
 			buildPhases = (
-				B8FB651ED151C7E4FF17D60E1CFE3670 /* Headers */,
-				28FBF8CDA755C42B0245887E57A453B9 /* Sources */,
-				F813E14871C7061D80E1114F5B0EE7C8 /* Frameworks */,
-				B859A245243043FA8AAF6146E9CBA690 /* Resources */,
+				64E380D5EE61966AF5B8114270D1D4F8 /* Headers */,
+				01B3FF05FF0DDCFBD0E4E394836B2D9B /* Sources */,
+				B020F4E2F97EB0A71294F6DF77E2997F /* Frameworks */,
+				570F70DDD11109455147290C67D44309 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -598,8 +598,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -624,35 +624,35 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07418AD82F6E9576FEACC8FAAF9386F1 /* Resources */ = {
+		1A0A0D5BA8C207F5ADB7C483BC9D8D5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		332B7A37F1A79B4B578E4145341A0E1C /* Resources */ = {
+		2D8515860C41C0991555B41F4F7D3476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C5E9D977E8BBB0B4DBD0629680F29F8 /* Resources */ = {
+		570F70DDD11109455147290C67D44309 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE845AAEA4E486FBE57E789895060C13 /* Resources */ = {
+		B156FCD3AFE3792C4DC059A481781B0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B859A245243043FA8AAF6146E9CBA690 /* Resources */ = {
+		FD6AACC5E2BA00C3CC93E6CF229A7E50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -662,122 +662,124 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		000885395D0D686A060DD76E35D874C2 /* Sources */ = {
+		01B3FF05FF0DDCFBD0E4E394836B2D9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */,
-				960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */,
+				F5C76F0861E14D92700C09AA06C1B826 /* Orientation.swift in Sources */,
+				5BBDCD75F459FED18C100C526966A1EE /* PreviewView.swift in Sources */,
+				B2A5C394C4E08364ED5369B730F45632 /* SwiftyCam-dummy.m in Sources */,
+				48AE8BEB83F03166EEA216CD02155296 /* SwiftyCamButton.swift in Sources */,
+				7F9FF02B69F4B83AF659002D023EF2F7 /* SwiftyCamViewController.swift in Sources */,
+				DE4158E2D9050CB6CE4F3D98A6230545 /* SwiftyCamViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28FBF8CDA755C42B0245887E57A453B9 /* Sources */ = {
+		339F60019805DAE2520A37D63B8B55BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7486F29A0281BF3895691642F0B4253 /* Orientation.swift in Sources */,
-				1617737C00264612593DEDA3148C662B /* PreviewView.swift in Sources */,
-				8EA1876E38362796CBC1121D9D693252 /* SwiftyCam-dummy.m in Sources */,
-				66D97D294305D14E0CCB83C66734A2C8 /* SwiftyCamButton.swift in Sources */,
-				03A2ACE6E5F621A0EE2259A8D4435229 /* SwiftyCamViewController.swift in Sources */,
-				132A0A94A2163F14EF37A3675A5E203D /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				EE34D37FCDCDADFA76D31A11E7AE37BC /* Pods-iOS 6-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C0C7EEABDC8B0CDBA0D661CCC3E95F8 /* Sources */ = {
+		4C95BB0CC088049D1EBBF96BDEFE4669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4ECB4328BC288DCE8A4E0BC43FB05B1 /* OrientationTracker.swift in Sources */,
-				0CDC03C2677E30CFAB7922B7459C0429 /* OrientationTracker-dummy.m in Sources */,
+				E484F5917F11E15B6EBEAD86781074C6 /* Address+Parsing.swift in Sources */,
+				6E8FE70266C21B1588C3E3745AA25343 /* CertificateUtils.swift in Sources */,
+				8161796AF25E1C8F114FEBC69B0A0811 /* Configuration.swift in Sources */,
+				8592F6C896351BF9ECC70EF4DCBF6705 /* ContentDisposition+Parsing.swift in Sources */,
+				E761715338F171CB952174B68E6124EB /* ContentEncoding+Parsing.swift in Sources */,
+				95EA0AFAFA52AC872BC60D14B80BBF64 /* Extension+Parsing.swift in Sources */,
+				66C0A20672D82829EFBC3EDF7935C59C /* FetchResult.swift in Sources */,
+				516F1EBA9A8C73A4AD238FAE04FB8972 /* IMAPCapability.swift in Sources */,
+				43851ED9AE6F51A82FCEEE9A371D85C4 /* IMAPError.swift in Sources */,
+				511A841C9F2B9988B92A96094B1D117E /* IMAPFolder.swift in Sources */,
+				8A788E8AB8D9CBB6F77F825D94367465 /* IMAPIdentity.swift in Sources */,
+				E89C51E66194DEE8D53C28FF011F9593 /* IMAPNamespace.swift in Sources */,
+				A8FD7A2AEC7DEB67950879F56B4BCAE1 /* IMAPSession.swift in Sources */,
+				6733EC2235F528011F6440CB771F5B86 /* IMAPSession+Fetch.swift in Sources */,
+				BF192F8120420824EB2686C506D387F4 /* IMAPSession+Folder.swift in Sources */,
+				0C6FC2A740D3EC090F3017D82D6028C6 /* IMAPSession+List.swift in Sources */,
+				84E0BC66AE906DADF949ECE1F1011FB0 /* IMAPSession+Move.swift in Sources */,
+				063A335BEA368012C2ABF0D805855C59 /* IMAPSession+Search.swift in Sources */,
+				4877217B8D576A54036F56E55C5AEE57 /* IMFError.swift in Sources */,
+				54676011EF7458123FCA988010DD136D /* Libetpan+Util.swift in Sources */,
+				6A6D20152C2B2D4978E8BD4158EDABD0 /* Logger.swift in Sources */,
+				A162B6C6DC7CC81F4D018C6B16783E0A /* Logger+IMAP.swift in Sources */,
+				22D8D7932D3DF98E08A7E4B57CAE23BF /* MailData+Decode.swift in Sources */,
+				31CEA9CD211DCAE26371715EA585A342 /* MailPart+Enumeration.swift in Sources */,
+				05CF2CA426F972E02359D26642AE182F /* MailPart+Parsing.swift in Sources */,
+				C0992606B3769F2ACD81AEA3022B27D9 /* Message+Parsing.swift in Sources */,
+				987694E826163654AD0F694A425B053B /* MessageAttribute+Parsing.swift in Sources */,
+				C84859B6588024BC4E9D90F8F170C8DA /* MessageFlags+Parsing.swift in Sources */,
+				A583B4213AE3F67E2341C8AEBBE3D19E /* MessageHeader+Parsing.swift in Sources */,
+				6B74E9CE700D60517680F499A60AB7C6 /* MimeFields+Parsing.swift in Sources */,
+				94786BCA0DD50922A4F543587C689C6A /* MimeType+Parsing.swift in Sources */,
+				089818A8452865BC367BF93B13F81ECF /* Postal.swift in Sources */,
+				86368E5D270D2DFE1B07B902FCFCDA17 /* Postal-dummy.m in Sources */,
+				8C049D8A6968B50E6053DB6202FE5629 /* PostalError.swift in Sources */,
+				098C20866B62C2E49D848EDD787CDFD5 /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3C0B6587873772C87A630C47519830 /* Sources */ = {
+		5DD54873E264A4125A3B86AADFDDBCFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8EA1012D77FE58AF9D7AFA778D94D77 /* Address+Parsing.swift in Sources */,
-				718E87C39ADDC7848C3FD053E865C29C /* CertificateUtils.swift in Sources */,
-				3331B5B18602EF58F18406419967CB96 /* Configuration.swift in Sources */,
-				843FF2E6F4F4E114DEEEB4632F13930B /* ContentDisposition+Parsing.swift in Sources */,
-				3DD51BA3C9833AAE527D9AFD54FF1D67 /* ContentEncoding+Parsing.swift in Sources */,
-				6F7858DECE8742D613391817DFA1B59D /* Extension+Parsing.swift in Sources */,
-				79A07143DDD009880B24C636367D473F /* FetchResult.swift in Sources */,
-				442239AA9F49F10240B022D7369D1C04 /* IMAPCapability.swift in Sources */,
-				A418CC1D425AF1F23CC5AD1883012C62 /* IMAPError.swift in Sources */,
-				CD5B3E76745C01E51E761C510B9367C2 /* IMAPFolder.swift in Sources */,
-				6E0FB08A7B08D423692C05BDBCB32F6E /* IMAPIdentity.swift in Sources */,
-				A52AAD6AE9CABCD87B22594504A256DE /* IMAPNamespace.swift in Sources */,
-				AD935356AEF551209D564366342DF04A /* IMAPSession.swift in Sources */,
-				82EE41732CE6EFA36525DA94BD278812 /* IMAPSession+Fetch.swift in Sources */,
-				623AB7C218A41F47478E0DD4F97AFF86 /* IMAPSession+Folder.swift in Sources */,
-				60B026D321CECD707392C9C151892ECF /* IMAPSession+List.swift in Sources */,
-				7592CD5BC260CCFEC923507DA1D5A6F8 /* IMAPSession+Move.swift in Sources */,
-				304584D11B8B1A69A98B9A499EEFAB2D /* IMAPSession+Search.swift in Sources */,
-				A0801B6BDF961461DE28B0567B83ABF3 /* IMFError.swift in Sources */,
-				6FEA70E4B349684C8689DCAA7A0209AD /* Libetpan+Util.swift in Sources */,
-				7B52C6F8CC3911E64D7C8417E0B9EDC0 /* Logger.swift in Sources */,
-				F05378C7FBCE35A654AFFB86B8F07C25 /* Logger+IMAP.swift in Sources */,
-				CFD34C66C97375DC512386AC4EE7E79D /* MailData+Decode.swift in Sources */,
-				54BA24CA40C3ED35581868A5694C159B /* MailPart+Enumeration.swift in Sources */,
-				DF92821B1DE4D41B5EDA3B3247B21603 /* MailPart+Parsing.swift in Sources */,
-				7A6769911903FDC4E60BC4A2E795168B /* Message+Parsing.swift in Sources */,
-				3AF7661778ED7380BB77CBE4BA35F4D3 /* MessageAttribute+Parsing.swift in Sources */,
-				C176DBE8F6F24E4518C12AC1A14E4EA3 /* MessageFlags+Parsing.swift in Sources */,
-				D2882552B09F06CC75BF65898CD8C412 /* MessageHeader+Parsing.swift in Sources */,
-				0D8E716CA83D6C24E3877D7DCA3F5AE6 /* MimeFields+Parsing.swift in Sources */,
-				93A211E26852151AC5D09317CDAFE05A /* MimeType+Parsing.swift in Sources */,
-				413A42F4A4291192AE2F05E0EE426EC7 /* Postal.swift in Sources */,
-				82CB8428794913E63C20EFCB2260EEBF /* Postal-dummy.m in Sources */,
-				640E35B4359F108CDF16A9E6D70F99E5 /* PostalError.swift in Sources */,
-				EF10BA5EC13334B7C75239D4262CE5C4 /* Util.swift in Sources */,
+				C009828DA99C73E82B0357C61062D915 /* Reachability.swift in Sources */,
+				948C6AD4FB481F85713FB432D0CB03F6 /* ReachabilitySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9289EB6FAB81419A6D1F8B2D10A01F3 /* Sources */ = {
+		A48672FD3A09AB3638FDCC34B3B219EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF63F7ED1666BF8BA069734263DE524 /* Pods-iOS 6-dummy.m in Sources */,
+				0DF8A3C802B8AF021C7C2E3FC4C14367 /* OrientationTracker.swift in Sources */,
+				BACFD9D01A88E10714C7CD3C662D2FF2 /* OrientationTracker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FB899B2370C9580DDEC1F8BDFB198F2 /* PBXTargetDependency */ = {
+		114B2CCD29A0A95C7DB8E83035435B84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyCam;
 			target = 64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */;
-			targetProxy = 13B1F497F8AB1F86497CEBF4A950B6B3 /* PBXContainerItemProxy */;
+			targetProxy = 8255054572E019CB2C2F23EDE82E584E /* PBXContainerItemProxy */;
 		};
-		41DAC1DFAE05C1D5D9C9F6965F9DC5D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Postal;
-			target = 014CE582943DE44B473C7E70A5897BE2 /* Postal */;
-			targetProxy = 279107806B180CC831C3F26FE08D564C /* PBXContainerItemProxy */;
-		};
-		4BB35E4C241F8E52224217F86EB2C2F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReachabilitySwift;
-			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
-			targetProxy = 63F6BCAB15C3A6AE62D73A59906A73EA /* PBXContainerItemProxy */;
-		};
-		DF38095B02C20703A81A3089DA25CE0C /* PBXTargetDependency */ = {
+		322262610BE3BAE15F7BB9FCF76BA226 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OrientationTracker;
 			target = 27A01C0569CDEBE581CC7D85FDA104F3 /* OrientationTracker */;
-			targetProxy = 46C20D8A7D55EF93FEA59B0ED7C373D3 /* PBXContainerItemProxy */;
+			targetProxy = 695AD318DC358BD1E9572572A44D0086 /* PBXContainerItemProxy */;
+		};
+		B9D034FED07682E45715A2C03980CCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = F600BFE381E0EE0BB7D31DCC03A3EBBB /* PBXContainerItemProxy */;
+		};
+		FFEF79BB99E513DA98864A8F086102C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Postal;
+			target = 014CE582943DE44B473C7E70A5897BE2 /* Postal */;
+			targetProxy = A65296675CDA96DE37F0E36C3E2E637D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21AD55110B8EC1FE89A807CB638814D6 /* Release */ = {
+		1F0F71EEEE47FB38B4B033382704A473 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F843F322447A694D1DD32B0C1E22C2CE /* SwiftyCam.release.xcconfig */;
+			baseConfigurationReference = C3750AD98408041CF2660837BCE56AA1 /* Pods-iOS 6.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -786,18 +788,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS 6/Pods-iOS 6-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyCam;
-				PRODUCT_NAME = SwiftyCam;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS 6/Pods-iOS 6.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -871,38 +876,7 @@
 			};
 			name = Debug;
 		};
-		330AF99EF6AC5B2104B1571F64CB8367 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A9FCECFD9753BE0B4A19024292E454B /* SwiftyCam.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyCam;
-				PRODUCT_NAME = SwiftyCam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		594DAF4AD219C4368A9896A31B87F629 /* Release */ = {
+		3861CCDB7BBD96D6E4568DFAFBD3EDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5056008AE6BA63723E3A7F276815765 /* ReachabilitySwift.release.xcconfig */;
 			buildSettings = {
@@ -915,10 +889,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
 				PRODUCT_MODULE_NAME = Reachability;
@@ -926,6 +903,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -934,9 +912,9 @@
 			};
 			name = Release;
 		};
-		635A53EBD5C378D0CC1B84824BC6E814 /* Release */ = {
+		513F8DBCC15413638430F6F6A30F0207 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A72436EB3E24BD450840B4BAD325EF2B /* OrientationTracker.release.xcconfig */;
+			baseConfigurationReference = 9B72B87F03867105731FF7F3B9FAD1BF /* OrientationTracker.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -947,10 +925,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/OrientationTracker/OrientationTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
 				PRODUCT_MODULE_NAME = OrientationTracker;
@@ -958,13 +939,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1027,101 +1008,7 @@
 			};
 			name = Release;
 		};
-		7284954E8C29A79EEB9BBBE76977A1BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CACE60DF360608EB782F4D2C3D7C64EA /* ReachabilitySwift.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		91E4FF8F2946BADF1485E2E6D2A07029 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7A686FF8866B9E9FD57171C0073D03E /* Postal.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
-				PRODUCT_MODULE_NAME = Postal;
-				PRODUCT_NAME = Postal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		921CB4E0EB1868C86097BE8205DE9177 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B03F681638A3988F7348C884CF753C /* Postal.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
-				PRODUCT_MODULE_NAME = Postal;
-				PRODUCT_NAME = Postal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9F680BFD45C5A027BB051C82C096ACAC /* Debug */ = {
+		75429A6A73FD751D20650ABE126B7D26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5500C26E78DFF2E14817C85A7299A69D /* Pods-iOS 6.debug.xcconfig */;
 			buildSettings = {
@@ -1136,6 +1023,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS 6/Pods-iOS 6-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1155,9 +1044,9 @@
 			};
 			name = Debug;
 		};
-		B3AB8D21835305F3B10886811FD3CF18 /* Debug */ = {
+		859A9B17D19E6BE39B72797EE5F71402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B72B87F03867105731FF7F3B9FAD1BF /* OrientationTracker.debug.xcconfig */;
+			baseConfigurationReference = 42B03F681638A3988F7348C884CF753C /* Postal.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1168,17 +1057,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OrientationTracker/OrientationTracker-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
-				PRODUCT_MODULE_NAME = OrientationTracker;
-				PRODUCT_NAME = OrientationTracker;
+				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
+				PRODUCT_MODULE_NAME = Postal;
+				PRODUCT_NAME = Postal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1186,13 +1079,11 @@
 			};
 			name = Debug;
 		};
-		D1D5EE491A993F724D334D2AD760396B /* Release */ = {
+		A4E78AD2F3638F501F9BD394B82883A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3750AD98408041CF2660837BCE56AA1 /* Pods-iOS 6.release.xcconfig */;
+			baseConfigurationReference = F7A686FF8866B9E9FD57171C0073D03E /* Postal.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1201,19 +1092,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS 6/Pods-iOS 6-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Postal/Postal-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Postal/Postal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS 6/Pods-iOS 6.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Postal/Postal.modulemap";
+				PRODUCT_MODULE_NAME = Postal;
+				PRODUCT_NAME = Postal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1221,18 +1115,151 @@
 			};
 			name = Release;
 		};
+		B743542DA0B7DF0E412923535FE4695B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72436EB3E24BD450840B4BAD325EF2B /* OrientationTracker.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OrientationTracker/OrientationTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
+				PRODUCT_MODULE_NAME = OrientationTracker;
+				PRODUCT_NAME = OrientationTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBD0D18D10B4611C8C15525DCA581BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F843F322447A694D1DD32B0C1E22C2CE /* SwiftyCam.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E429596C73706ECFB9A8DB3D585433E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACE60DF360608EB782F4D2C3D7C64EA /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8B9EEF7225B89E28909EBD328EBF11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9FCECFD9753BE0B4A19024292E454B /* SwiftyCam.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7284954E8C29A79EEB9BBBE76977A1BB /* Debug */,
-				594DAF4AD219C4368A9896A31B87F629 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1242,38 +1269,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BF34986C6CDFBE8F9F4CB00BF61CEC5 /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+		875101615F04D097D765658FB8208B26 /* Build configuration list for PBXNativeTarget "OrientationTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				330AF99EF6AC5B2104B1571F64CB8367 /* Debug */,
-				21AD55110B8EC1FE89A807CB638814D6 /* Release */,
+				513F8DBCC15413638430F6F6A30F0207 /* Debug */,
+				B743542DA0B7DF0E412923535FE4695B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFF632A0898786FCD82CD848F1A63F80 /* Build configuration list for PBXNativeTarget "OrientationTracker" */ = {
+		963295D4F093A6AEAE17403A22254F4B /* Build configuration list for PBXNativeTarget "Postal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AB8D21835305F3B10886811FD3CF18 /* Debug */,
-				635A53EBD5C378D0CC1B84824BC6E814 /* Release */,
+				859A9B17D19E6BE39B72797EE5F71402 /* Debug */,
+				A4E78AD2F3638F501F9BD394B82883A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D98E1F0146BCBCCF8FDD1BAAB44EA249 /* Build configuration list for PBXNativeTarget "Postal" */ = {
+		9AA8FFC0EA23C8D8025B6BC62C55833F /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921CB4E0EB1868C86097BE8205DE9177 /* Debug */,
-				91E4FF8F2946BADF1485E2E6D2A07029 /* Release */,
+				E429596C73706ECFB9A8DB3D585433E1 /* Debug */,
+				3861CCDB7BBD96D6E4568DFAFBD3EDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB88F5E3FB4D82BC4B0F01A324658EEC /* Build configuration list for PBXNativeTarget "Pods-iOS 6" */ = {
+		B95E4C4F67691AE4F9FCE98CC7C76EB3 /* Build configuration list for PBXNativeTarget "Pods-iOS 6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F680BFD45C5A027BB051C82C096ACAC /* Debug */,
-				D1D5EE491A993F724D334D2AD760396B /* Release */,
+				75429A6A73FD751D20650ABE126B7D26 /* Debug */,
+				1F0F71EEEE47FB38B4B033382704A473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46957267045F057E514C9BF63BDC68B /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B9EEF7225B89E28909EBD328EBF11A /* Debug */,
+				DBD0D18D10B4611C8C15525DCA581BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
